@@ -1,0 +1,13 @@
+DEFINED_PHASES=configure install
+DEPEND=sys-devel/gcc dev-libs/double-conversion:= dev-libs/glib:2 dev-libs/libpcre2[pcre16,unicode] sys-libs/zlib icu? ( dev-libs/icu:= ) !icu? ( virtual/libiconv ) systemd? ( sys-apps/systemd:= )
+DESCRIPTION=Qt 5 sdk for gcc compiler
+EAPI=5
+HOMEPAGE=https://github.com/dev-0x7C6/dev1990-overlay
+IUSE=3d serialbus webview +declarative +doc +bundle +graphicaleffects +quick +quick2 +serialport connectivity examples location +multimedia script sensors svg tests +tools wayland webchannel webengine icu systemd
+KEYWORDS=arm arm64 x86 amd64
+LICENSE=LGPL-3
+RDEPEND=sys-devel/gcc
+SLOT=5.9.7
+SRC_URI=http://download.qt.io/official_releases/qt/5.9/5.9.7/single/qt-everywhere-opensource-src-5.9.7.tar.xz
+_eclasses_=estack	43ddf5aaffa7a8d0482df54d25a66a1f	qtsdk	28a4b9c6b1c3b165c7fa6380737626bd	versionator	2352c3fc97241f6a02042773c8287748
+_md5_=2696a7b7c07f2414d3749255aeda0fa5

@@ -1,0 +1,10 @@
+DEFINED_PHASES=configure unpack
+DEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DESCRIPTION=Tools to enable audio input from the Microsoft Kinect sensor device
+EAPI=6
+HOMEPAGE=https://git.ao2.it/
+KEYWORDS=x86 amd64
+LICENSE=GPL-2
+SLOT=0
+_eclasses_=git-r3	0d4635eeb5a96cd5315597a47eba25c9
+_md5_=4270f94c9ad811c373b829563ba06844
