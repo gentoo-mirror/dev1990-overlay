@@ -1,13 +1,13 @@
 DEFINED_PHASES=configure install
-DEPEND=sys-devel/gcc dev-libs/double-conversion:= dev-libs/glib:2 dev-libs/libpcre2[pcre16,unicode] sys-libs/zlib icu? ( dev-libs/icu:= ) !icu? ( virtual/libiconv ) systemd? ( sys-apps/systemd:= )
+DEPEND=sys-devel/gcc dev-libs/double-conversion:= dev-libs/glib:2 dev-libs/libpcre2[pcre16,unicode] sys-libs/zlib qpa_platform_xcb? ( x11-libs/libxcb:= ) icu? ( dev-libs/icu:= ) !icu? ( virtual/libiconv ) systemd? ( sys-apps/systemd:= )
 DESCRIPTION=Qt 5 sdk for gcc compiler
 EAPI=5
 HOMEPAGE=https://github.com/dev-0x7C6/dev1990-overlay
-IUSE=3d serialbus webview +declarative +doc +bundle +graphicaleffects +quick +quick2 +serialport connectivity examples location +multimedia script sensors svg tests +tools wayland webchannel webengine icu systemd
+IUSE=+qpa_platform_eglfs +qpa_platform_gbm +qpa_platform_kms +qpa_platform_xcb qpa_platform_directfb qpa_platform_linuxfb qpa_platform_mirclient 3d serialbus webview +bundle +declarative +doc +graphicaleffects +multimedia +quick +quick2 +serialport +tools connectivity examples icu location script sensors svg systemd tests wayland webchannel webengine
 KEYWORDS=arm arm64 x86 amd64
 LICENSE=LGPL-3
-RDEPEND=sys-devel/gcc
+RDEPEND=sys-devel/gcc dev-libs/double-conversion:= dev-libs/glib:2 dev-libs/libpcre2[pcre16,unicode] sys-libs/zlib qpa_platform_xcb? ( x11-libs/libxcb:= ) icu? ( dev-libs/icu:= ) !icu? ( virtual/libiconv ) systemd? ( sys-apps/systemd:= )
 SLOT=5.12.0
 SRC_URI=http://download.qt.io/official_releases/qt/5.12/5.12.0/single/qt-everywhere-src-5.12.0.tar.xz
-_eclasses_=estack	43ddf5aaffa7a8d0482df54d25a66a1f	qtsdk	06e48d4acc3c810df75ff86ccd0985e2	versionator	2352c3fc97241f6a02042773c8287748
+_eclasses_=estack	43ddf5aaffa7a8d0482df54d25a66a1f	qtsdk	638a60fe6bc2d753e280767548b0707c	versionator	2352c3fc97241f6a02042773c8287748
 _md5_=2696a7b7c07f2414d3749255aeda0fa5
