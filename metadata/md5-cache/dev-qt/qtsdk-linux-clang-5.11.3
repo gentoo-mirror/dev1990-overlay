@@ -1,13 +1,13 @@
 DEFINED_PHASES=configure install
-DEPEND=sys-devel/clang dev-libs/double-conversion:= dev-libs/glib:2 dev-libs/libpcre2[pcre16,unicode] sys-libs/zlib qpa_platform_xcb? ( x11-libs/libxcb:= ) icu? ( dev-libs/icu:= ) !icu? ( virtual/libiconv ) systemd? ( sys-apps/systemd:= )
+DEPEND=sys-devel/clang dev-libs/double-conversion:= dev-libs/glib:2 media-libs/fontconfig >=media-libs/freetype-2.6.1:2 >=media-libs/harfbuzz-1.6.0:= dev-libs/libpcre2[pcre16,unicode] media-libs/libpng:0= sys-libs/zlib fontconfig? ( media-libs/fontconfig ) qpa_platform_xcb? ( x11-libs/libxcb:= ) icu? ( dev-libs/icu:= ) !icu? ( virtual/libiconv ) systemd? ( sys-apps/systemd:= )
 DESCRIPTION=Qt 5 sdk for clang compiler
 EAPI=5
 HOMEPAGE=https://github.com/dev-0x7C6/dev1990-overlay
-IUSE=+qpa_platform_eglfs +qpa_platform_gbm +qpa_platform_kms +qpa_platform_xcb qpa_platform_directfb qpa_platform_linuxfb 3d serialbus webview +bundle +declarative +doc +graphicaleffects +multimedia +quick +quick2 +serialport +tools connectivity examples icu location script sensors svg systemd tests wayland webchannel webengine
+IUSE=+qpa_platform_eglfs +qpa_platform_gbm +qpa_platform_kms +qpa_platform_xcb qpa_platform_directfb qpa_platform_linuxfb 3d serialbus webview +declarative +doc +fontconfig +graphicaleffects +icu +multimedia +quick +quick2 +serialport +tools connectivity examples location script sensors svg systemd tests wayland webchannel webengine
 KEYWORDS=arm arm64 x86 amd64
 LICENSE=LGPL-3
-RDEPEND=sys-devel/clang dev-libs/double-conversion:= dev-libs/glib:2 dev-libs/libpcre2[pcre16,unicode] sys-libs/zlib qpa_platform_xcb? ( x11-libs/libxcb:= ) icu? ( dev-libs/icu:= ) !icu? ( virtual/libiconv ) systemd? ( sys-apps/systemd:= )
+RDEPEND=sys-devel/clang dev-libs/double-conversion:= dev-libs/glib:2 media-libs/fontconfig >=media-libs/freetype-2.6.1:2 >=media-libs/harfbuzz-1.6.0:= dev-libs/libpcre2[pcre16,unicode] media-libs/libpng:0= sys-libs/zlib fontconfig? ( media-libs/fontconfig ) qpa_platform_xcb? ( x11-libs/libxcb:= ) icu? ( dev-libs/icu:= ) !icu? ( virtual/libiconv ) systemd? ( sys-apps/systemd:= )
 SLOT=5.11.3
 SRC_URI=http://download.qt.io/official_releases/qt/5.11/5.11.3/single/qt-everywhere-src-5.11.3.tar.xz
-_eclasses_=estack	43ddf5aaffa7a8d0482df54d25a66a1f	qtsdk	638a60fe6bc2d753e280767548b0707c	versionator	2352c3fc97241f6a02042773c8287748
+_eclasses_=estack	43ddf5aaffa7a8d0482df54d25a66a1f	qtsdk	7386e3fe790e8f71c25b44d57e16642f	versionator	2352c3fc97241f6a02042773c8287748
 _md5_=23c30d8e591404fe0396fc1d5c94696a
