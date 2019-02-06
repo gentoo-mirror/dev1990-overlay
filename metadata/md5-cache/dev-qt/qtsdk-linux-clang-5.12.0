@@ -9,5 +9,5 @@ LICENSE=LGPL-3
 RDEPEND=sys-devel/clang dev-libs/double-conversion:= dev-libs/glib:2 media-libs/fontconfig >=media-libs/freetype-2.6.1:2 >=media-libs/harfbuzz-1.6.0:= dev-libs/libpcre2[pcre16,unicode] media-libs/libpng:0= sys-libs/zlib fontconfig? ( media-libs/fontconfig ) icu? ( dev-libs/icu:= ) !icu? ( virtual/libiconv ) systemd? ( sys-apps/systemd:= ) qpa_platform_xcb? ( x11-libs/libxcb:= )
 SLOT=5.12.0
 SRC_URI=http://download.qt.io/official_releases/qt/5.12/5.12.0/single/qt-everywhere-src-5.12.0.tar.xz
-_eclasses_=estack	43ddf5aaffa7a8d0482df54d25a66a1f	qtsdk	21c29e4b7c27852902938e4c0de4b66e	qtsdk-desktop	0fb884313880cf4b34a07e71a664f0ac	versionator	2352c3fc97241f6a02042773c8287748
+_eclasses_=estack	43ddf5aaffa7a8d0482df54d25a66a1f	qtsdk	9026318297d2556fb2594af079f1cae2	qtsdk-desktop	0fb884313880cf4b34a07e71a664f0ac	versionator	2352c3fc97241f6a02042773c8287748
 _md5_=dfa6daade58c221ad51f1ea224092d15
