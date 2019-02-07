@@ -1,13 +1,13 @@
 DEFINED_PHASES=configure install
-DEPEND=sys-devel/gcc dev-libs/double-conversion:= dev-libs/glib:2 media-libs/fontconfig >=media-libs/freetype-2.6.1:2 >=media-libs/harfbuzz-1.6.0:= dev-libs/libpcre2[pcre16,unicode] media-libs/libpng:0= sys-libs/zlib fontconfig? ( media-libs/fontconfig ) icu? ( dev-libs/icu:= ) !icu? ( virtual/libiconv ) systemd? ( sys-apps/systemd:= ) qpa_platform_xcb? ( x11-libs/libxcb:= )
-DESCRIPTION=Qt 5 sdk for gcc compiler
-EAPI=5
+DEPEND=dev-libs/double-conversion:= dev-libs/glib:2 media-libs/fontconfig >=media-libs/freetype-2.6.1:2 >=media-libs/harfbuzz-1.6.0:= dev-libs/libpcre2[pcre16,unicode] media-libs/libpng:0= sys-libs/zlib fontconfig? ( media-libs/fontconfig ) icu? ( dev-libs/icu:= ) !icu? ( virtual/libiconv ) systemd? ( sys-apps/systemd:= ) qpa_platform_xcb? ( x11-libs/libxcb:= ) sys-devel/gcc
+DESCRIPTION=Complete QtSdk for desktop application development
+EAPI=6
 HOMEPAGE=https://github.com/dev-0x7C6/dev1990-overlay
 IUSE=3d serialbus webview +gamepad +declarative +doc +fontconfig +gamepad +graphicaleffects +icu +multimedia +quick +quick2 +serialport +tools connectivity examples location script sensors svg systemd tests wayland webchannel webengine +qpa_platform_eglfs +qpa_platform_gbm +qpa_platform_kms +qpa_platform_xcb qpa_platform_directfb qpa_platform_linuxfb
 KEYWORDS=arm arm64 x86 amd64
 LICENSE=LGPL-3
-RDEPEND=sys-devel/gcc dev-libs/double-conversion:= dev-libs/glib:2 media-libs/fontconfig >=media-libs/freetype-2.6.1:2 >=media-libs/harfbuzz-1.6.0:= dev-libs/libpcre2[pcre16,unicode] media-libs/libpng:0= sys-libs/zlib fontconfig? ( media-libs/fontconfig ) icu? ( dev-libs/icu:= ) !icu? ( virtual/libiconv ) systemd? ( sys-apps/systemd:= ) qpa_platform_xcb? ( x11-libs/libxcb:= )
+RDEPEND=dev-libs/double-conversion:= dev-libs/glib:2 media-libs/fontconfig >=media-libs/freetype-2.6.1:2 >=media-libs/harfbuzz-1.6.0:= dev-libs/libpcre2[pcre16,unicode] media-libs/libpng:0= sys-libs/zlib fontconfig? ( media-libs/fontconfig ) icu? ( dev-libs/icu:= ) !icu? ( virtual/libiconv ) systemd? ( sys-apps/systemd:= ) qpa_platform_xcb? ( x11-libs/libxcb:= ) sys-devel/gcc
 SLOT=5.11.3
 SRC_URI=http://download.qt.io/official_releases/qt/5.11/5.11.3/single/qt-everywhere-src-5.11.3.tar.xz
-_eclasses_=estack	43ddf5aaffa7a8d0482df54d25a66a1f	qtsdk	9026318297d2556fb2594af079f1cae2	qtsdk-desktop	0fb884313880cf4b34a07e71a664f0ac	versionator	2352c3fc97241f6a02042773c8287748
-_md5_=2b731012d58724926fd3b95aa33da3b8
+_eclasses_=estack	43ddf5aaffa7a8d0482df54d25a66a1f	qtsdk	374ae65322e3e3f81a62cb602d4b390c	qtsdk-desktop	69c4d2a8d31dee44f46fc582acb0f589	qtsdk-desktop-gcc	cfa93e84cfd6b8725a1c353684db8461	versionator	2352c3fc97241f6a02042773c8287748
+_md5_=f2a8020b1f2155f101f6d1d57086bc8a

@@ -1,13 +1,13 @@
 DEFINED_PHASES=configure install
-DEPEND=sys-devel/gcc dev-libs/double-conversion:= dev-libs/glib:2 media-libs/fontconfig >=media-libs/freetype-2.6.1:2 >=media-libs/harfbuzz-1.6.0:= dev-libs/libpcre2[pcre16,unicode] media-libs/libpng:0= sys-libs/zlib fontconfig? ( media-libs/fontconfig ) icu? ( dev-libs/icu:= ) !icu? ( virtual/libiconv ) systemd? ( sys-apps/systemd:= ) dev-util/android-ndk
-DESCRIPTION=Qt 5 sdk for gcc compiler
-EAPI=5
+DEPEND=dev-libs/double-conversion:= dev-libs/glib:2 media-libs/fontconfig >=media-libs/freetype-2.6.1:2 >=media-libs/harfbuzz-1.6.0:= dev-libs/libpcre2[pcre16,unicode] media-libs/libpng:0= sys-libs/zlib fontconfig? ( media-libs/fontconfig ) icu? ( dev-libs/icu:= ) !icu? ( virtual/libiconv ) systemd? ( sys-apps/systemd:= ) dev-util/android-ndk sys-devel/clang sys-devel/gcc
+DESCRIPTION=Complete QtSdk for mobile application development
+EAPI=6
 HOMEPAGE=https://github.com/dev-0x7C6/dev1990-overlay
 IUSE=3d serialbus webview +gamepad +declarative +doc +fontconfig +gamepad +graphicaleffects +icu +multimedia +quick +quick2 +serialport +tools connectivity examples location script sensors svg systemd tests wayland webchannel webengine
-KEYWORDS=~arm ~arm64 ~x86 ~amd64
+KEYWORDS=arm arm64 x86 amd64
 LICENSE=LGPL-3
-RDEPEND=sys-devel/gcc dev-libs/double-conversion:= dev-libs/glib:2 media-libs/fontconfig >=media-libs/freetype-2.6.1:2 >=media-libs/harfbuzz-1.6.0:= dev-libs/libpcre2[pcre16,unicode] media-libs/libpng:0= sys-libs/zlib fontconfig? ( media-libs/fontconfig ) icu? ( dev-libs/icu:= ) !icu? ( virtual/libiconv ) systemd? ( sys-apps/systemd:= ) dev-util/android-ndk
+RDEPEND=dev-libs/double-conversion:= dev-libs/glib:2 media-libs/fontconfig >=media-libs/freetype-2.6.1:2 >=media-libs/harfbuzz-1.6.0:= dev-libs/libpcre2[pcre16,unicode] media-libs/libpng:0= sys-libs/zlib fontconfig? ( media-libs/fontconfig ) icu? ( dev-libs/icu:= ) !icu? ( virtual/libiconv ) systemd? ( sys-apps/systemd:= ) dev-util/android-ndk sys-devel/clang sys-devel/gcc
 SLOT=5.12.1
 SRC_URI=http://download.qt.io/official_releases/qt/5.12/5.12.1/single/qt-everywhere-src-5.12.1.tar.xz
-_eclasses_=estack	43ddf5aaffa7a8d0482df54d25a66a1f	qtsdk	9026318297d2556fb2594af079f1cae2	qtsdk-android	bae2275e6b2eccff3a8ff93c3738f6a6	versionator	2352c3fc97241f6a02042773c8287748
-_md5_=2dad9e38f846109f67a429f7cd358d3f
+_eclasses_=estack	43ddf5aaffa7a8d0482df54d25a66a1f	qtsdk	374ae65322e3e3f81a62cb602d4b390c	qtsdk-android	e8605fc60dbd9ab9dab052b46198c1ed	versionator	2352c3fc97241f6a02042773c8287748
+_md5_=122fc067630b0fb3979c21223d9a0a16
