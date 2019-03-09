@@ -41,6 +41,7 @@ cross-armv7a-hardfloat-linux-gnueabi/glibc:gd - build memusage and memusagestat 
 cross-armv7a-hardfloat-linux-gnueabi/glibc:multiarch - enable optimizations for multiple CPU architectures (detected at runtime)
 cross-armv7a-hardfloat-linux-gnueabi/glibc:nscd - Build, and enable support for, the Name Service Cache Daemon
 cross-armv7a-hardfloat-linux-gnueabi/glibc:rpc - Enable obsolete RPC/NIS layers
+cross-armv7a-hardfloat-linux-gnueabi/glibc:ssp - protect stack of glibc internals
 cross-armv7a-hardfloat-linux-gnueabi/glibc:suid - Make internal pt_chown helper setuid -- not needed if using Linux and have /dev/pts mounted with gid=5
 cross-armv7a-hardfloat-linux-gnueabi/glibc:systemtap - enable systemtap static probe points
 cross-armv7a-softfloat-linux-gnueabi/binutils:default-gold - Set ld to point to ld.gold instead of ld.bfd
@@ -82,6 +83,7 @@ cross-armv7a-softfloat-linux-gnueabi/glibc:gd - build memusage and memusagestat 
 cross-armv7a-softfloat-linux-gnueabi/glibc:multiarch - enable optimizations for multiple CPU architectures (detected at runtime)
 cross-armv7a-softfloat-linux-gnueabi/glibc:nscd - Build, and enable support for, the Name Service Cache Daemon
 cross-armv7a-softfloat-linux-gnueabi/glibc:rpc - Enable obsolete RPC/NIS layers
+cross-armv7a-softfloat-linux-gnueabi/glibc:ssp - protect stack of glibc internals
 cross-armv7a-softfloat-linux-gnueabi/glibc:suid - Make internal pt_chown helper setuid -- not needed if using Linux and have /dev/pts mounted with gid=5
 cross-armv7a-softfloat-linux-gnueabi/glibc:systemtap - enable systemtap static probe points
 cross-armv8a-hardfloat-linux-gnueabi/binutils:default-gold - Set ld to point to ld.gold instead of ld.bfd
@@ -123,6 +125,7 @@ cross-armv8a-hardfloat-linux-gnueabi/glibc:gd - build memusage and memusagestat 
 cross-armv8a-hardfloat-linux-gnueabi/glibc:multiarch - enable optimizations for multiple CPU architectures (detected at runtime)
 cross-armv8a-hardfloat-linux-gnueabi/glibc:nscd - Build, and enable support for, the Name Service Cache Daemon
 cross-armv8a-hardfloat-linux-gnueabi/glibc:rpc - Enable obsolete RPC/NIS layers
+cross-armv8a-hardfloat-linux-gnueabi/glibc:ssp - protect stack of glibc internals
 cross-armv8a-hardfloat-linux-gnueabi/glibc:suid - Make internal pt_chown helper setuid -- not needed if using Linux and have /dev/pts mounted with gid=5
 cross-armv8a-hardfloat-linux-gnueabi/glibc:systemtap - enable systemtap static probe points
 cross-avr/binutils:default-gold - Set ld to point to ld.gold instead of ld.bfd
