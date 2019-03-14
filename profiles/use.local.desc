@@ -33,6 +33,7 @@ cross-armv7a-hardfloat-linux-gnueabi/gdb:lzma - Support lzma compression in ELF 
 cross-armv7a-hardfloat-linux-gnueabi/gdb:multitarget - Support all known targets in one gdb binary
 cross-armv7a-hardfloat-linux-gnueabi/gdb:python - Enable support for the new internal scripting language, as well as extended pretty printers
 cross-armv7a-hardfloat-linux-gnueabi/gdb:server - Install the "gdbserver" program (useful for embedded/remote targets)
+cross-armv7a-hardfloat-linux-gnueabi/gdb:source-highlight - Enable listing highlighting via dev-util/source-highlight
 cross-armv7a-hardfloat-linux-gnueabi/gdb:xml - Support parsing XML data files needed (at least) for cpu features, memory maps, and syscall tracing
 cross-armv7a-hardfloat-linux-gnueabi/glibc:cet - Enable Intel Control-flow Enforcement Technology (needs binutils 2.29 and gcc 8)
 cross-armv7a-hardfloat-linux-gnueabi/glibc:compile-locales - build *all* locales in src_install; this is generally meant for stage building only as it ignores /etc/locale.gen file and can be pretty slow
@@ -75,6 +76,7 @@ cross-armv7a-softfloat-linux-gnueabi/gdb:lzma - Support lzma compression in ELF 
 cross-armv7a-softfloat-linux-gnueabi/gdb:multitarget - Support all known targets in one gdb binary
 cross-armv7a-softfloat-linux-gnueabi/gdb:python - Enable support for the new internal scripting language, as well as extended pretty printers
 cross-armv7a-softfloat-linux-gnueabi/gdb:server - Install the "gdbserver" program (useful for embedded/remote targets)
+cross-armv7a-softfloat-linux-gnueabi/gdb:source-highlight - Enable listing highlighting via dev-util/source-highlight
 cross-armv7a-softfloat-linux-gnueabi/gdb:xml - Support parsing XML data files needed (at least) for cpu features, memory maps, and syscall tracing
 cross-armv7a-softfloat-linux-gnueabi/glibc:cet - Enable Intel Control-flow Enforcement Technology (needs binutils 2.29 and gcc 8)
 cross-armv7a-softfloat-linux-gnueabi/glibc:compile-locales - build *all* locales in src_install; this is generally meant for stage building only as it ignores /etc/locale.gen file and can be pretty slow
@@ -117,6 +119,7 @@ cross-armv8a-hardfloat-linux-gnueabi/gdb:lzma - Support lzma compression in ELF 
 cross-armv8a-hardfloat-linux-gnueabi/gdb:multitarget - Support all known targets in one gdb binary
 cross-armv8a-hardfloat-linux-gnueabi/gdb:python - Enable support for the new internal scripting language, as well as extended pretty printers
 cross-armv8a-hardfloat-linux-gnueabi/gdb:server - Install the "gdbserver" program (useful for embedded/remote targets)
+cross-armv8a-hardfloat-linux-gnueabi/gdb:source-highlight - Enable listing highlighting via dev-util/source-highlight
 cross-armv8a-hardfloat-linux-gnueabi/gdb:xml - Support parsing XML data files needed (at least) for cpu features, memory maps, and syscall tracing
 cross-armv8a-hardfloat-linux-gnueabi/glibc:cet - Enable Intel Control-flow Enforcement Technology (needs binutils 2.29 and gcc 8)
 cross-armv8a-hardfloat-linux-gnueabi/glibc:compile-locales - build *all* locales in src_install; this is generally meant for stage building only as it ignores /etc/locale.gen file and can be pretty slow
@@ -159,4 +162,5 @@ cross-avr/gdb:lzma - Support lzma compression in ELF debug info
 cross-avr/gdb:multitarget - Support all known targets in one gdb binary
 cross-avr/gdb:python - Enable support for the new internal scripting language, as well as extended pretty printers
 cross-avr/gdb:server - Install the "gdbserver" program (useful for embedded/remote targets)
+cross-avr/gdb:source-highlight - Enable listing highlighting via dev-util/source-highlight
 cross-avr/gdb:xml - Support parsing XML data files needed (at least) for cpu features, memory maps, and syscall tracing
