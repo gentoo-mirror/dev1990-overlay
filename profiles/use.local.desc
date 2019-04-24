@@ -164,3 +164,8 @@ cross-avr/gdb:python - Enable support for the new internal scripting language, a
 cross-avr/gdb:server - Install the "gdbserver" program (useful for embedded/remote targets)
 cross-avr/gdb:source-highlight - Enable listing highlighting via dev-util/source-highlight
 cross-avr/gdb:xml - Support parsing XML data files needed (at least) for cpu features, memory maps, and syscall tracing
+dev-util/kdevelop:gdbui - Enable GUI for attaching GDB to a running process
+dev-util/kdevelop:hex - Enable hex editor plugin via app-editors/okteta
+dev-util/kdevelop:qmake - Enable support for QMake build system
+dev-util/kdevelop:reviewboard - Enable reviewboard support
+dev-util/kdevelop:webkit - Enable deprecated dev-qt/qtwebkit instead of dev-qt/qtwebengine for integrated documentation
