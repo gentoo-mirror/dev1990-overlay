@@ -164,6 +164,106 @@ cross-avr/gdb:python - Enable support for the new internal scripting language, a
 cross-avr/gdb:server - Install the "gdbserver" program (useful for embedded/remote targets)
 cross-avr/gdb:source-highlight - Enable listing highlighting via dev-util/source-highlight
 cross-avr/gdb:xml - Support parsing XML data files needed (at least) for cpu features, memory maps, and syscall tracing
+dev-qt/qtsdk-linux-clang:3d - Build Qt3D module
+dev-qt/qtsdk-linux-clang:connectivity - Build Qt Connectivity module
+dev-qt/qtsdk-linux-clang:declarative - Build Qt Declarative module
+dev-qt/qtsdk-linux-clang:gamepad - Build Qt Gamepad module
+dev-qt/qtsdk-linux-clang:graphicaleffects - Build Qt Graphical Effects module
+dev-qt/qtsdk-linux-clang:location - Build with location support
+dev-qt/qtsdk-linux-clang:multimedia - Build Qt Multimedia module
+dev-qt/qtsdk-linux-clang:qpa_platform_directfb - Build platform support for directfb
+dev-qt/qtsdk-linux-clang:qpa_platform_eglfs - Build platform support for eglfs
+dev-qt/qtsdk-linux-clang:qpa_platform_gbm - Build platform support for gbm
+dev-qt/qtsdk-linux-clang:qpa_platform_kms - Build platform support for kms
+dev-qt/qtsdk-linux-clang:qpa_platform_linuxfb - Build platform support for linuxfb
+dev-qt/qtsdk-linux-clang:qpa_platform_mirclient - Build platform support for mir
+dev-qt/qtsdk-linux-clang:qpa_platform_xcb - Build platform support for xcb (X11)
+dev-qt/qtsdk-linux-clang:quick - Build with Qt Quick 1 support
+dev-qt/qtsdk-linux-clang:quick2 - Build with Qt Quick 2 support
+dev-qt/qtsdk-linux-clang:script - Build Qt Script module
+dev-qt/qtsdk-linux-clang:sensors - Build Qt Sensor module
+dev-qt/qtsdk-linux-clang:serialbus - Build Qt Serial Bus module
+dev-qt/qtsdk-linux-clang:serialport - Build Qt Serial Port module
+dev-qt/qtsdk-linux-clang:tests - Build embedded tests
+dev-qt/qtsdk-linux-clang:tools - Build with standard developer tools
+dev-qt/qtsdk-linux-clang:webchannel - Build Qt WebChannel module
+dev-qt/qtsdk-linux-clang:webengine - Build Qt WebEngine module
+dev-qt/qtsdk-linux-clang:webview - Build Qt WebView module
+dev-qt/qtsdk-linux-clang-dbg:3d - Build Qt3D module
+dev-qt/qtsdk-linux-clang-dbg:connectivity - Build Qt Connectivity module
+dev-qt/qtsdk-linux-clang-dbg:declarative - Build Qt Declarative module
+dev-qt/qtsdk-linux-clang-dbg:gamepad - Build Qt Gamepad module
+dev-qt/qtsdk-linux-clang-dbg:graphicaleffects - Build Qt Graphical Effects module
+dev-qt/qtsdk-linux-clang-dbg:location - Build with location support
+dev-qt/qtsdk-linux-clang-dbg:multimedia - Build Qt Multimedia module
+dev-qt/qtsdk-linux-clang-dbg:qpa_platform_directfb - Build platform support for directfb
+dev-qt/qtsdk-linux-clang-dbg:qpa_platform_eglfs - Build platform support for eglfs
+dev-qt/qtsdk-linux-clang-dbg:qpa_platform_gbm - Build platform support for gbm
+dev-qt/qtsdk-linux-clang-dbg:qpa_platform_kms - Build platform support for kms
+dev-qt/qtsdk-linux-clang-dbg:qpa_platform_linuxfb - Build platform support for linuxfb
+dev-qt/qtsdk-linux-clang-dbg:qpa_platform_mirclient - Build platform support for mir
+dev-qt/qtsdk-linux-clang-dbg:qpa_platform_xcb - Build platform support for xcb (X11)
+dev-qt/qtsdk-linux-clang-dbg:quick - Build with Qt Quick 1 support
+dev-qt/qtsdk-linux-clang-dbg:quick2 - Build with Qt Quick 2 support
+dev-qt/qtsdk-linux-clang-dbg:script - Build Qt Script module
+dev-qt/qtsdk-linux-clang-dbg:sensors - Build Qt Sensor module
+dev-qt/qtsdk-linux-clang-dbg:serialbus - Build Qt Serial Bus module
+dev-qt/qtsdk-linux-clang-dbg:serialport - Build Qt Serial Port module
+dev-qt/qtsdk-linux-clang-dbg:tests - Build embedded tests
+dev-qt/qtsdk-linux-clang-dbg:tools - Build with standard developer tools
+dev-qt/qtsdk-linux-clang-dbg:webchannel - Build Qt WebChannel module
+dev-qt/qtsdk-linux-clang-dbg:webengine - Build Qt WebEngine module
+dev-qt/qtsdk-linux-clang-dbg:webview - Build Qt WebView module
+dev-qt/qtsdk-linux-g++:3d - Build Qt3D module
+dev-qt/qtsdk-linux-g++:connectivity - Build Qt Connectivity module
+dev-qt/qtsdk-linux-g++:declarative - Build Qt Declarative module
+dev-qt/qtsdk-linux-g++:gamepad - Build Qt Gamepad module
+dev-qt/qtsdk-linux-g++:graphicaleffects - Build Qt Graphical Effects module
+dev-qt/qtsdk-linux-g++:location - Build with location support
+dev-qt/qtsdk-linux-g++:multimedia - Build Qt Multimedia module
+dev-qt/qtsdk-linux-g++:qpa_platform_directfb - Build platform support for directfb
+dev-qt/qtsdk-linux-g++:qpa_platform_eglfs - Build platform support for eglfs
+dev-qt/qtsdk-linux-g++:qpa_platform_gbm - Build platform support for gbm
+dev-qt/qtsdk-linux-g++:qpa_platform_kms - Build platform support for kms
+dev-qt/qtsdk-linux-g++:qpa_platform_linuxfb - Build platform support for linuxfb
+dev-qt/qtsdk-linux-g++:qpa_platform_mirclient - Build platform support for mir
+dev-qt/qtsdk-linux-g++:qpa_platform_xcb - Build platform support for xcb (X11)
+dev-qt/qtsdk-linux-g++:quick - Build with Qt Quick 1 support
+dev-qt/qtsdk-linux-g++:quick2 - Build with Qt Quick 2 support
+dev-qt/qtsdk-linux-g++:script - Build Qt Script module
+dev-qt/qtsdk-linux-g++:sensors - Build Qt Sensor module
+dev-qt/qtsdk-linux-g++:serialbus - Build Qt Serial Bus module
+dev-qt/qtsdk-linux-g++:serialport - Build Qt Serial Port module
+dev-qt/qtsdk-linux-g++:tests - Build embedded tests
+dev-qt/qtsdk-linux-g++:tools - Build with standard developer tools
+dev-qt/qtsdk-linux-g++:webchannel - Build Qt WebChannel module
+dev-qt/qtsdk-linux-g++:webengine - Build Qt WebEngine module
+dev-qt/qtsdk-linux-g++:webview - Build Qt WebView module
+dev-qt/qtsdk-linux-g++-dbg:3d - Build Qt3D module
+dev-qt/qtsdk-linux-g++-dbg:connectivity - Build Qt Connectivity module
+dev-qt/qtsdk-linux-g++-dbg:declarative - Build Qt Declarative module
+dev-qt/qtsdk-linux-g++-dbg:gamepad - Build Qt Gamepad module
+dev-qt/qtsdk-linux-g++-dbg:graphicaleffects - Build Qt Graphical Effects module
+dev-qt/qtsdk-linux-g++-dbg:location - Build with location support
+dev-qt/qtsdk-linux-g++-dbg:multimedia - Build Qt Multimedia module
+dev-qt/qtsdk-linux-g++-dbg:qpa_platform_directfb - Build platform support for directfb
+dev-qt/qtsdk-linux-g++-dbg:qpa_platform_eglfs - Build platform support for eglfs
+dev-qt/qtsdk-linux-g++-dbg:qpa_platform_gbm - Build platform support for gbm
+dev-qt/qtsdk-linux-g++-dbg:qpa_platform_kms - Build platform support for kms
+dev-qt/qtsdk-linux-g++-dbg:qpa_platform_linuxfb - Build platform support for linuxfb
+dev-qt/qtsdk-linux-g++-dbg:qpa_platform_mirclient - Build platform support for mir
+dev-qt/qtsdk-linux-g++-dbg:qpa_platform_xcb - Build platform support for xcb (X11)
+dev-qt/qtsdk-linux-g++-dbg:quick - Build with Qt Quick 1 support
+dev-qt/qtsdk-linux-g++-dbg:quick2 - Build with Qt Quick 2 support
+dev-qt/qtsdk-linux-g++-dbg:script - Build Qt Script module
+dev-qt/qtsdk-linux-g++-dbg:sensors - Build Qt Sensor module
+dev-qt/qtsdk-linux-g++-dbg:serialbus - Build Qt Serial Bus module
+dev-qt/qtsdk-linux-g++-dbg:serialport - Build Qt Serial Port module
+dev-qt/qtsdk-linux-g++-dbg:tests - Build embedded tests
+dev-qt/qtsdk-linux-g++-dbg:tools - Build with standard developer tools
+dev-qt/qtsdk-linux-g++-dbg:webchannel - Build Qt WebChannel module
+dev-qt/qtsdk-linux-g++-dbg:webengine - Build Qt WebEngine module
+dev-qt/qtsdk-linux-g++-dbg:webview - Build Qt WebView module
 dev-util/kdevelop:gdbui - Enable GUI for attaching GDB to a running process
 dev-util/kdevelop:hex - Enable hex editor plugin via app-editors/okteta
 dev-util/kdevelop:qmake - Enable support for QMake build system
