@@ -22,11 +22,11 @@ cross-avr/gcc 3.3.6-r3 3.3.6-r4 3.4.6-r2 3.4.6-r3 3.4.6-r4 4.0.4-r2 4.1.2 4.1.2-
 cross-avr/gdb 8.3 9999: GNU debugger
 dev-libs/google-benchmark 1.4.1: Google's microbenchmark support library for C++
 dev-qt/qt-creator 4.9.0 4.9.1 4.9.2 4.10.0_beta1 4.10.0_beta2 4.10.0: Lightweight IDE for C++/QML development centering around Qt
-dev-qt/qtsdk-android-clang 5.12.1 5.12.2 5.12.3 5.12.4 5.13.0 5.13.1: Complete QtSdk for mobile application development
-dev-qt/qtsdk-linux-clang 5.6.0 5.6.1 5.6.2 5.6.3 5.9.0 5.9.1 5.9.2 5.9.3 5.9.4 5.9.5 5.9.6 5.9.7 5.9.8 5.10.0 5.10.1 5.11.0 5.11.1 5.11.2 5.11.3 5.12.0 5.12.1 5.12.2 5.12.3 5.12.4 5.13.0 5.13.1: Complete QtSdk for desktop application development
-dev-qt/qtsdk-linux-clang-dbg 5.6.0 5.6.1 5.6.2 5.6.3 5.9.0 5.9.1 5.9.2 5.9.3 5.9.4 5.9.5 5.9.6 5.9.7 5.9.8 5.10.0 5.10.1 5.11.0 5.11.1 5.11.2 5.11.3 5.12.0 5.12.1 5.12.2 5.12.3 5.12.4 5.13.0 5.13.1: Complete QtSdk for desktop application development
-dev-qt/qtsdk-linux-g++ 5.6.0 5.6.1 5.6.2 5.6.3 5.9.0 5.9.1 5.9.2 5.9.3 5.9.4 5.9.5 5.9.6 5.9.7 5.9.8 5.10.0 5.10.1 5.11.0 5.11.1 5.11.2 5.11.3 5.12.0 5.12.1 5.12.2 5.12.3 5.12.4 5.13.0 5.13.1: Complete QtSdk for desktop application development
-dev-qt/qtsdk-linux-g++-dbg 5.6.0 5.6.1 5.6.2 5.6.3 5.9.0 5.9.1 5.9.2 5.9.3 5.9.4 5.9.5 5.9.6 5.9.7 5.9.8 5.10.0 5.10.1 5.11.0 5.11.1 5.11.2 5.11.3 5.12.0 5.12.1 5.12.2 5.12.3 5.12.4 5.13.0 5.13.1: Complete QtSdk for desktop application development
+dev-qt/qtsdk-android-clang 5.12.1 5.12.2 5.12.3 5.12.4 5.12.5 5.13.0 5.13.1: Complete QtSdk for mobile application development
+dev-qt/qtsdk-linux-clang 5.6.0 5.6.1 5.6.2 5.6.3 5.9.0 5.9.1 5.9.2 5.9.3 5.9.4 5.9.5 5.9.6 5.9.7 5.9.8 5.10.0 5.10.1 5.11.0 5.11.1 5.11.2 5.11.3 5.12.0 5.12.1 5.12.2 5.12.3 5.12.4 5.12.5 5.13.0 5.13.1: Complete QtSdk for desktop application development
+dev-qt/qtsdk-linux-clang-dbg 5.6.0 5.6.1 5.6.2 5.6.3 5.9.0 5.9.1 5.9.2 5.9.3 5.9.4 5.9.5 5.9.6 5.9.7 5.9.8 5.10.0 5.10.1 5.11.0 5.11.1 5.11.2 5.11.3 5.12.0 5.12.1 5.12.2 5.12.3 5.12.4 5.12.5 5.13.0 5.13.1: Complete QtSdk for desktop application development
+dev-qt/qtsdk-linux-g++ 5.6.0 5.6.1 5.6.2 5.6.3 5.9.0 5.9.1 5.9.2 5.9.3 5.9.4 5.9.5 5.9.6 5.9.7 5.9.8 5.10.0 5.10.1 5.11.0 5.11.1 5.11.2 5.11.3 5.12.0 5.12.1 5.12.2 5.12.3 5.12.4 5.12.5 5.13.0 5.13.1: Complete QtSdk for desktop application development
+dev-qt/qtsdk-linux-g++-dbg 5.6.0 5.6.1 5.6.2 5.6.3 5.9.0 5.9.1 5.9.2 5.9.3 5.9.4 5.9.5 5.9.6 5.9.7 5.9.8 5.10.0 5.10.1 5.11.0 5.11.1 5.11.2 5.11.3 5.12.0 5.12.1 5.12.2 5.12.3 5.12.4 5.12.5 5.13.0 5.13.1: Complete QtSdk for desktop application development
 dev-util/android-ndk 18: Open Handset Alliance's Android NDK (Native Dev Kit)
 dev-util/cmake-format 0.4.5: Source code formatter for cmake listfiles.
 dev-util/kdevelop 5.3.2: Integrated Development Environment, supporting KF5/Qt, C/C++ and much more
@@ -36,4 +36,4 @@ media-gfx/prusa-slicer 2.0.0 2.1.0_rc2: G-code generator for 3D printers (RepRap
 media-libs/wiimms-iso-tools 9999: Wiimms ISO Tools is a set of command line tools to manipulate Wii and GameCube ISO images and WBFS containers.
 media-sound/kinect-audio-setup 9999: Tools to enable audio input from the Microsoft Kinect sensor device
 media-video/v4l2loopback 0.12.1 0.12.2: v4l2 loopback device which output is it's own input
-sys-devel/clang 8.0.1-r101: C language family frontend for LLVM
+sys-devel/clang 8.0.1-r100: C language family frontend for LLVM
