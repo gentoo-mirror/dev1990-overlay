@@ -3,11 +3,11 @@ DEPEND=dev-libs/double-conversion:= dev-libs/glib:2 media-libs/fontconfig >=medi
 DESCRIPTION=Complete QtSdk for desktop application development
 EAPI=7
 HOMEPAGE=https://github.com/dev-0x7C6/dev1990-overlay
-IUSE=3d serialbus webview +gamepad +declarative +doc +fontconfig +graphicaleffects +icu +multimedia +quick +quick2 +serialport +tools connectivity examples location script sensors svg systemd tests wayland webchannel webengine +qpa_platform_eglfs +qpa_platform_gbm +qpa_platform_kms +qpa_platform_xcb qpa_platform_directfb qpa_platform_linuxfb qpa_platform_mirclient
+IUSE=3d serialbus webview +gamepad +declarative +doc +fontconfig +graphicaleffects +icu +multimedia +quick +quick2 +serialport +tools connectivity examples location script sensors svg systemd tests wayland webchannel webengine +qpa_platform_eglfs +qpa_platform_gbm +qpa_platform_kms +qpa_platform_xcb qpa_platform_directfb qpa_platform_linuxfb
 KEYWORDS=amd64 ~arm ~arm64 x86
 LICENSE=LGPL-3
 RDEPEND=dev-libs/double-conversion:= dev-libs/glib:2 media-libs/fontconfig >=media-libs/freetype-2.6.1:2 >=media-libs/harfbuzz-1.6.0:= dev-libs/libpcre2[pcre16,unicode] media-libs/libpng:0= sys-libs/zlib fontconfig? ( media-libs/fontconfig ) icu? ( dev-libs/icu:= ) !icu? ( virtual/libiconv ) systemd? ( sys-apps/systemd:= ) qpa_platform_xcb? ( x11-libs/libxcb:= ) sys-devel/gcc:=
 SLOT=5.12.0
 SRC_URI=http://download.qt.io/official_releases/qt/5.12/5.12.0/single/qt-everywhere-src-5.12.0.tar.xz
-_eclasses_=check-reqs	5e40a693d9c828e8f3655184116e8b73	qtsdk	ae398713ba138c4b77bc95b388600131	qtsdk-desktop	066983265526c972f0f0b5926af7b87a	qtsdk-desktop-gcc	e17e1e8a8a9c25dde5cef6a7a6bcf4a7
+_eclasses_=check-reqs	5e40a693d9c828e8f3655184116e8b73	qtsdk	ae398713ba138c4b77bc95b388600131	qtsdk-desktop	f3d48771331153b98cfc27e8381040fe	qtsdk-desktop-gcc	e17e1e8a8a9c25dde5cef6a7a6bcf4a7
 _md5_=5ef4d9494d23e97246a1d920a7a35101
