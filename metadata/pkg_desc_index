@@ -27,7 +27,7 @@ dev-qt/qtsdk-linux-clang 5.6.0 5.6.1 5.6.2 5.6.3 5.9.0 5.9.1 5.9.2 5.9.3 5.9.4 5
 dev-qt/qtsdk-linux-clang-dbg 5.6.0 5.6.1 5.6.2 5.6.3 5.9.0 5.9.1 5.9.2 5.9.3 5.9.4 5.9.5 5.9.6 5.9.7 5.9.8 5.10.0 5.10.1 5.11.0 5.11.1 5.11.2 5.11.3 5.12.0 5.12.1 5.12.2 5.12.3 5.12.4 5.12.5 5.13.0 5.13.1 5.14.0_beta1 5.14.0_beta2: Complete QtSdk for desktop application development
 dev-qt/qtsdk-linux-g++ 5.6.0 5.6.1 5.6.2 5.6.3 5.9.0 5.9.1 5.9.2 5.9.3 5.9.4 5.9.5 5.9.6 5.9.7 5.9.8 5.10.0 5.10.1 5.11.0 5.11.1 5.11.2 5.11.3 5.12.0 5.12.1 5.12.2 5.12.3 5.12.4 5.12.5 5.13.0 5.13.1 5.14.0_beta1 5.14.0_beta2: Complete QtSdk for desktop application development
 dev-qt/qtsdk-linux-g++-dbg 5.6.0 5.6.1 5.6.2 5.6.3 5.9.0 5.9.1 5.9.2 5.9.3 5.9.4 5.9.5 5.9.6 5.9.7 5.9.8 5.10.0 5.10.1 5.11.0 5.11.1 5.11.2 5.11.3 5.12.0 5.12.1 5.12.2 5.12.3 5.12.4 5.12.5 5.13.0 5.13.1 5.14.0_beta1 5.14.0_beta2: Complete QtSdk for desktop application development
-dev-util/android-ndk 18: Open Handset Alliance's Android NDK (Native Dev Kit)
+dev-util/android-ndk 18 20 21: Open Handset Alliance's Android NDK (Native Dev Kit)
 dev-util/cmake-format 0.4.5: Source code formatter for cmake listfiles.
 dev-util/kdevelop 5.3.2 5.4.3: Integrated Development Environment, supporting KF5/Qt, C/C++ and much more
 games-action/extreme-tuxracer 0.7.5: High speed arctic racing game based on Tux Racer

@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile configure install pretend setup
+DEPEND=app-arch/p7zip
+DESCRIPTION=Open Handset Alliance's Android NDK (Native Dev Kit)
+EAPI=6
+HOMEPAGE=http://developer.android.com/sdk/ndk/
+LICENSE=android
+RDEPEND=>=dev-util/android-sdk-update-manager-10 >=sys-devel/make-3.81 >=sys-apps/sandbox-2.18 sys-libs/ncurses:5/5[tinfo]
+RESTRICT=mirror strip installsources test
+SLOT=0
+SRC_URI=https://dl.google.com/android/repository/android-ndk-r21-linux-x86_64.zip
+_eclasses_=check-reqs	5e40a693d9c828e8f3655184116e8b73
+_md5_=2675ee6a037cfb6338c9a1f05ac7f843
