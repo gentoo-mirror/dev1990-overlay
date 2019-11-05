@@ -26,7 +26,6 @@ cross-armv7a-hardfloat-linux-gnueabi/gcc:objc - Build support for the Objective 
 cross-armv7a-hardfloat-linux-gnueabi/gcc:objc++ - Build support for the Objective C++ language
 cross-armv7a-hardfloat-linux-gnueabi/gcc:objc-gc - Build support for the Objective C code language Garbage Collector
 cross-armv7a-hardfloat-linux-gnueabi/gcc:pgo - Build GCC using Profile Guided Optimization (PGO)
-cross-armv7a-hardfloat-linux-gnueabi/gcc:regression-test - Run the testsuite and install the results (requires FEATURES=test)
 cross-armv7a-hardfloat-linux-gnueabi/gcc:sanitize - Build support for various sanitizer functions (ASAN/TSAN/etc...)
 cross-armv7a-hardfloat-linux-gnueabi/gcc:ssp - Build packages with stack smashing protector on by default
 cross-armv7a-hardfloat-linux-gnueabi/gcc:systemtap - enable systemtap static probe points
@@ -72,7 +71,6 @@ cross-armv7a-softfloat-linux-gnueabi/gcc:objc - Build support for the Objective 
 cross-armv7a-softfloat-linux-gnueabi/gcc:objc++ - Build support for the Objective C++ language
 cross-armv7a-softfloat-linux-gnueabi/gcc:objc-gc - Build support for the Objective C code language Garbage Collector
 cross-armv7a-softfloat-linux-gnueabi/gcc:pgo - Build GCC using Profile Guided Optimization (PGO)
-cross-armv7a-softfloat-linux-gnueabi/gcc:regression-test - Run the testsuite and install the results (requires FEATURES=test)
 cross-armv7a-softfloat-linux-gnueabi/gcc:sanitize - Build support for various sanitizer functions (ASAN/TSAN/etc...)
 cross-armv7a-softfloat-linux-gnueabi/gcc:ssp - Build packages with stack smashing protector on by default
 cross-armv7a-softfloat-linux-gnueabi/gcc:systemtap - enable systemtap static probe points
@@ -118,7 +116,6 @@ cross-armv8a-hardfloat-linux-gnueabi/gcc:objc - Build support for the Objective 
 cross-armv8a-hardfloat-linux-gnueabi/gcc:objc++ - Build support for the Objective C++ language
 cross-armv8a-hardfloat-linux-gnueabi/gcc:objc-gc - Build support for the Objective C code language Garbage Collector
 cross-armv8a-hardfloat-linux-gnueabi/gcc:pgo - Build GCC using Profile Guided Optimization (PGO)
-cross-armv8a-hardfloat-linux-gnueabi/gcc:regression-test - Run the testsuite and install the results (requires FEATURES=test)
 cross-armv8a-hardfloat-linux-gnueabi/gcc:sanitize - Build support for various sanitizer functions (ASAN/TSAN/etc...)
 cross-armv8a-hardfloat-linux-gnueabi/gcc:ssp - Build packages with stack smashing protector on by default
 cross-armv8a-hardfloat-linux-gnueabi/gcc:systemtap - enable systemtap static probe points
@@ -164,7 +161,6 @@ cross-avr/gcc:objc - Build support for the Objective C code language
 cross-avr/gcc:objc++ - Build support for the Objective C++ language
 cross-avr/gcc:objc-gc - Build support for the Objective C code language Garbage Collector
 cross-avr/gcc:pgo - Build GCC using Profile Guided Optimization (PGO)
-cross-avr/gcc:regression-test - Run the testsuite and install the results (requires FEATURES=test)
 cross-avr/gcc:sanitize - Build support for various sanitizer functions (ASAN/TSAN/etc...)
 cross-avr/gcc:ssp - Build packages with stack smashing protector on by default
 cross-avr/gcc:systemtap - enable systemtap static probe points
