@@ -39,6 +39,7 @@ cross-armv7a-hardfloat-linux-gnueabi/gdb:source-highlight - Enable listing highl
 cross-armv7a-hardfloat-linux-gnueabi/gdb:xml - Support parsing XML data files needed (at least) for cpu features, memory maps, and syscall tracing
 cross-armv7a-hardfloat-linux-gnueabi/glibc:cet - Enable Intel Control-flow Enforcement Technology (needs binutils 2.29 and gcc 8)
 cross-armv7a-hardfloat-linux-gnueabi/glibc:compile-locales - build *all* locales in src_install; this is generally meant for stage building only as it ignores /etc/locale.gen file and can be pretty slow
+cross-armv7a-hardfloat-linux-gnueabi/glibc:crypt - build and install libcrypt and crypt.h
 cross-armv7a-hardfloat-linux-gnueabi/glibc:debug - When USE=hardened, allow fortify/stack violations to dump core (SIGABRT) and not kill self (SIGKILL)
 cross-armv7a-hardfloat-linux-gnueabi/glibc:gd - build memusage and memusagestat tools
 cross-armv7a-hardfloat-linux-gnueabi/glibc:multiarch - enable optimizations for multiple CPU architectures (detected at runtime)
@@ -84,6 +85,7 @@ cross-armv7a-softfloat-linux-gnueabi/gdb:source-highlight - Enable listing highl
 cross-armv7a-softfloat-linux-gnueabi/gdb:xml - Support parsing XML data files needed (at least) for cpu features, memory maps, and syscall tracing
 cross-armv7a-softfloat-linux-gnueabi/glibc:cet - Enable Intel Control-flow Enforcement Technology (needs binutils 2.29 and gcc 8)
 cross-armv7a-softfloat-linux-gnueabi/glibc:compile-locales - build *all* locales in src_install; this is generally meant for stage building only as it ignores /etc/locale.gen file and can be pretty slow
+cross-armv7a-softfloat-linux-gnueabi/glibc:crypt - build and install libcrypt and crypt.h
 cross-armv7a-softfloat-linux-gnueabi/glibc:debug - When USE=hardened, allow fortify/stack violations to dump core (SIGABRT) and not kill self (SIGKILL)
 cross-armv7a-softfloat-linux-gnueabi/glibc:gd - build memusage and memusagestat tools
 cross-armv7a-softfloat-linux-gnueabi/glibc:multiarch - enable optimizations for multiple CPU architectures (detected at runtime)
@@ -129,6 +131,7 @@ cross-armv8a-hardfloat-linux-gnueabi/gdb:source-highlight - Enable listing highl
 cross-armv8a-hardfloat-linux-gnueabi/gdb:xml - Support parsing XML data files needed (at least) for cpu features, memory maps, and syscall tracing
 cross-armv8a-hardfloat-linux-gnueabi/glibc:cet - Enable Intel Control-flow Enforcement Technology (needs binutils 2.29 and gcc 8)
 cross-armv8a-hardfloat-linux-gnueabi/glibc:compile-locales - build *all* locales in src_install; this is generally meant for stage building only as it ignores /etc/locale.gen file and can be pretty slow
+cross-armv8a-hardfloat-linux-gnueabi/glibc:crypt - build and install libcrypt and crypt.h
 cross-armv8a-hardfloat-linux-gnueabi/glibc:debug - When USE=hardened, allow fortify/stack violations to dump core (SIGABRT) and not kill self (SIGKILL)
 cross-armv8a-hardfloat-linux-gnueabi/glibc:gd - build memusage and memusagestat tools
 cross-armv8a-hardfloat-linux-gnueabi/glibc:multiarch - enable optimizations for multiple CPU architectures (detected at runtime)
