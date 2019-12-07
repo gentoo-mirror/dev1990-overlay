@@ -39,3 +39,4 @@ media-libs/wiimms-iso-tools 9999: Wiimms ISO Tools is a set of command line tool
 media-sound/kinect-audio-setup 9999: Tools to enable audio input from the Microsoft Kinect sensor device
 media-video/v4l2loopback 0.12.1 0.12.2: v4l2 loopback device which output is it's own input
 sys-devel/clang 8.0.1-r100: C language family frontend for LLVM
+www-client/brave-bin 1.0.1: Brave Web Browser
