@@ -1,0 +1,15 @@
+name: CI
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: docker pull
+      run: docker pull mgorny/gentoo-overlay-ci
+    - name: docker run
+      run: docker run -e REPO=dev1990-overlay mgorny/gentoo-overlay-ci
