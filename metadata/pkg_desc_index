@@ -1,4 +1,4 @@
-app-editors/atom-bin 1.41.0: A hackable text editor for the 21st Century - Binary package
+app-editors/atom-bin 1.41.0 1.42.0: A hackable text editor for the 21st Century - Binary package
 app-editors/vscode-bin 1.40.0 1.40.1 1.40.2 1.41.0: Multiplatform Visual Studio Code from Microsoft (binary version)
 app-misc/wiimotedev 2.0.3: Wiiremote service and input/ouput emulator
 cross-armv7a-hardfloat-linux-gnueabi/binutils 2.26.1 2.27-r1 2.28.1 2.29.1-r1 2.30-r4 2.31.1-r6 2.32-r1 2.33.1 9999: Tools necessary to build programs
