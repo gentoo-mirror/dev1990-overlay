@@ -23,11 +23,11 @@ cross-avr/gdb 8.3 8.3.1 9999: GNU debugger
 dev-embedded/rpiboot 9999: Raspberry Pi USB booting code
 dev-libs/google-benchmark 1.5.0: Google's microbenchmark support library for C++
 dev-qt/qt-creator 4.10.2 4.11.0_rc1 4.11.0 9999: Lightweight IDE for C++/QML development centering around Qt
-dev-qt/qtsdk-android-clang 5.12.1 5.12.2 5.12.3 5.12.4 5.12.5 5.12.6 5.13.0 5.13.1 5.13.2 5.14.0: Complete QtSdk for mobile application development
-dev-qt/qtsdk-linux-clang 5.6.0 5.6.1 5.6.2 5.6.3 5.9.0 5.9.1 5.9.2 5.9.3 5.9.4 5.9.5 5.9.6 5.9.7 5.9.8 5.9.9 5.10.0 5.10.1 5.11.0 5.11.1 5.11.2 5.11.3 5.12.0 5.12.1 5.12.2 5.12.3 5.12.4 5.12.5 5.12.6 5.13.0 5.13.1 5.13.2 5.14.0: Complete QtSdk for desktop application development
-dev-qt/qtsdk-linux-clang-dbg 5.6.0 5.6.1 5.6.2 5.6.3 5.9.0 5.9.1 5.9.2 5.9.3 5.9.4 5.9.5 5.9.6 5.9.7 5.9.8 5.9.9 5.10.0 5.10.1 5.11.0 5.11.1 5.11.2 5.11.3 5.12.0 5.12.1 5.12.2 5.12.3 5.12.4 5.12.5 5.12.6 5.13.0 5.13.1 5.13.2 5.14.0: Complete QtSdk for desktop application development
-dev-qt/qtsdk-linux-g++ 5.6.0 5.6.1 5.6.2 5.6.3 5.9.0 5.9.1 5.9.2 5.9.3 5.9.4 5.9.5 5.9.6 5.9.7 5.9.8 5.9.9 5.10.0 5.10.1 5.11.0 5.11.1 5.11.2 5.11.3 5.12.0 5.12.1 5.12.2 5.12.3 5.12.4 5.12.5 5.12.6 5.13.0 5.13.1 5.13.2 5.14.0: Complete QtSdk for desktop application development
-dev-qt/qtsdk-linux-g++-dbg 5.6.0 5.6.1 5.6.2 5.6.3 5.9.0 5.9.1 5.9.2 5.9.3 5.9.4 5.9.5 5.9.6 5.9.7 5.9.8 5.9.9 5.10.0 5.10.1 5.11.0 5.11.1 5.11.2 5.11.3 5.12.0 5.12.1 5.12.2 5.12.3 5.12.4 5.12.5 5.12.6 5.13.0 5.13.1 5.13.2 5.14.0: Complete QtSdk for desktop application development
+dev-qt/qtsdk-android-clang 5.12.1 5.12.2 5.12.3 5.12.4 5.12.5 5.12.6 5.13.0 5.13.1 5.13.2 5.14.0: Complete Qt SDK for mobile application development
+dev-qt/qtsdk-linux-clang 5.6.0 5.6.1 5.6.2 5.6.3 5.9.0 5.9.1 5.9.2 5.9.3 5.9.4 5.9.5 5.9.6 5.9.7 5.9.8 5.9.9 5.10.0 5.10.1 5.11.0 5.11.1 5.11.2 5.11.3 5.12.0 5.12.1 5.12.2 5.12.3 5.12.4 5.12.5 5.12.6 5.13.0 5.13.1 5.13.2 5.14.0: Complete Qt SDK for desktop application development
+dev-qt/qtsdk-linux-clang-dbg 5.6.0 5.6.1 5.6.2 5.6.3 5.9.0 5.9.1 5.9.2 5.9.3 5.9.4 5.9.5 5.9.6 5.9.7 5.9.8 5.9.9 5.10.0 5.10.1 5.11.0 5.11.1 5.11.2 5.11.3 5.12.0 5.12.1 5.12.2 5.12.3 5.12.4 5.12.5 5.12.6 5.13.0 5.13.1 5.13.2 5.14.0: Complete Qt SDK for desktop application development
+dev-qt/qtsdk-linux-g++ 5.6.0 5.6.1 5.6.2 5.6.3 5.9.0 5.9.1 5.9.2 5.9.3 5.9.4 5.9.5 5.9.6 5.9.7 5.9.8 5.9.9 5.10.0 5.10.1 5.11.0 5.11.1 5.11.2 5.11.3 5.12.0 5.12.1 5.12.2 5.12.3 5.12.4 5.12.5 5.12.6 5.13.0 5.13.1 5.13.2 5.14.0: Complete Qt SDK for desktop application development
+dev-qt/qtsdk-linux-g++-dbg 5.6.0 5.6.1 5.6.2 5.6.3 5.9.0 5.9.1 5.9.2 5.9.3 5.9.4 5.9.5 5.9.6 5.9.7 5.9.8 5.9.9 5.10.0 5.10.1 5.11.0 5.11.1 5.11.2 5.11.3 5.12.0 5.12.1 5.12.2 5.12.3 5.12.4 5.12.5 5.12.6 5.13.0 5.13.1 5.13.2 5.14.0: Complete Qt SDK for desktop application development
 dev-util/android-ndk 18 20 21: Open Handset Alliance's Android NDK (Native Dev Kit)
 dev-util/cmake-format 0.4.5: Source code formatter for cmake listfiles.
 dev-util/kdevelop 5.3.2 5.4.3 5.4.4: Integrated Development Environment, supporting KF5/Qt, C/C++ and much more

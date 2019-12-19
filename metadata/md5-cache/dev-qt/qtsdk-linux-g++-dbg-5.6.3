@@ -1,6 +1,6 @@
 DEFINED_PHASES=configure install pretend setup
 DEPEND=dev-libs/double-conversion:= dev-libs/glib:2 media-libs/fontconfig >=media-libs/freetype-2.6.1:2 >=media-libs/harfbuzz-1.6.0:= dev-libs/libpcre2[pcre16,unicode] media-libs/libpng:0= sys-libs/zlib fontconfig? ( media-libs/fontconfig ) icu? ( dev-libs/icu:= ) !icu? ( virtual/libiconv ) systemd? ( sys-apps/systemd:= ) qpa_xcb? ( x11-libs/libxcb:= ) sys-devel/gcc:=
-DESCRIPTION=Complete QtSdk for desktop application development
+DESCRIPTION=Complete Qt SDK for desktop application development
 EAPI=7
 HOMEPAGE=https://github.com/dev-0x7C6/dev1990-overlay
 IUSE=3d serialbus webview +cxx_detect cxx_11 cxx_14 cxx_17 cxx_2a +declarative +doc +fontconfig +graphicaleffects +icu +multimedia +quick +quick2 +serialport +tools connectivity examples location script sensors svg systemd tests wayland webchannel webengine +qpa_eglfs +qpa_gbm +qpa_kms +qpa_xcb qpa_directfb qpa_linuxfb
@@ -10,5 +10,5 @@ RDEPEND=dev-libs/double-conversion:= dev-libs/glib:2 media-libs/fontconfig >=med
 REQUIRED_USE=^^ ( cxx_detect cxx_11 cxx_14 cxx_17 cxx_2a )
 SLOT=5.6.3
 SRC_URI=http://download.qt.io/archive/qt//5.6/5.6.3/single/qt-everywhere-opensource-src-5.6.3.tar.xz
-_eclasses_=check-reqs	5e40a693d9c828e8f3655184116e8b73	qtsdk	4759ba91ea34af7d8931e400088a1aef	qtsdk-desktop	4dcc9abf80d6578c87cb82d3cc5935be	qtsdk-desktop-gcc	e17e1e8a8a9c25dde5cef6a7a6bcf4a7
+_eclasses_=check-reqs	5e40a693d9c828e8f3655184116e8b73	qtsdk	4759ba91ea34af7d8931e400088a1aef	qtsdk-desktop	fa41fa34a3a5b0200ac782b94ae8ba4c	qtsdk-desktop-gcc	e17e1e8a8a9c25dde5cef6a7a6bcf4a7
 _md5_=5ef4d9494d23e97246a1d920a7a35101
