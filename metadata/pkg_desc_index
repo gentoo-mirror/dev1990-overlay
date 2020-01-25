@@ -3,7 +3,7 @@ app-editors/vscode-bin 1.40.0 1.40.1 1.40.2 1.41.0 1.41.1: Multiplatform Visual 
 app-misc/wiimotedev 2.0.3: Wiiremote service and input/ouput emulator
 dev-embedded/rpiboot 9999: Raspberry Pi USB booting code
 dev-libs/google-benchmark 1.5.0: Google's microbenchmark support library for C++
-dev-qt/qt-creator 4.10.2 4.11.0-r1 9999: Lightweight IDE for C++/QML development centering around Qt
+dev-qt/qt-creator 4.10.2 4.11.0-r1 4.11.0-r2 9999: Lightweight IDE for C++/QML development centering around Qt
 dev-qt/qtsdk-android-clang 5.12.1 5.12.2 5.12.3 5.12.4 5.12.5 5.12.6 5.13.0 5.13.1 5.13.2 5.14.0: Complete Qt SDK for mobile application development
 dev-qt/qtsdk-linux-clang 5.6.0 5.6.1 5.6.2 5.6.3 5.9.0 5.9.1 5.9.2 5.9.3 5.9.4 5.9.5 5.9.6 5.9.7 5.9.8 5.9.9 5.10.0 5.10.1 5.11.0 5.11.1 5.11.2 5.11.3 5.12.0 5.12.1 5.12.2 5.12.3 5.12.4 5.12.5 5.12.6 5.13.0 5.13.1 5.13.2 5.14.0: Complete Qt SDK for desktop application development
 dev-qt/qtsdk-linux-clang-dbg 5.6.0 5.6.1 5.6.2 5.6.3 5.9.0 5.9.1 5.9.2 5.9.3 5.9.4 5.9.5 5.9.6 5.9.7 5.9.8 5.9.9 5.10.0 5.10.1 5.11.0 5.11.1 5.11.2 5.11.3 5.12.0 5.12.1 5.12.2 5.12.3 5.12.4 5.12.5 5.12.6 5.13.0 5.13.1 5.13.2 5.14.0: Complete Qt SDK for desktop application development
@@ -20,5 +20,5 @@ media-gfx/prusa-slicer 2.0.0 2.1.0 2.1.1_rc 2.1.1: G-code generator for 3D print
 media-libs/wiimms-iso-tools 9999: Wiimms ISO Tools is a set of command line tools to manipulate Wii and GameCube ISO images and WBFS containers.
 media-sound/kinect-audio-setup 9999: Tools to enable audio input from the Microsoft Kinect sensor device
 media-video/v4l2loopback 0.12.1 0.12.2 0.12.3: v4l2 loopback device which output is it's own input
-sys-devel/clang 8.0.1-r100: C language family frontend for LLVM
+sys-devel/clang 8.0.1-r100 9.0.1-r100: C language family frontend for LLVM
 www-client/brave-bin 1.0.1 1.1.23: Brave Web Browser
