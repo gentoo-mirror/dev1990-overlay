@@ -19,7 +19,7 @@ media-gfx/led-frame 0.8.10 0.9.1 0.9.2 0.9.3: Led Frame a high performance ambil
 media-gfx/prusa-slicer 2.0.0 2.1.0 2.1.1_rc 2.1.1: G-code generator for 3D printers (RepRap, Makerbot, Ultimaker etc.)
 media-libs/wiimms-iso-tools 9999: Wiimms ISO Tools is a set of command line tools to manipulate Wii and GameCube ISO images and WBFS containers.
 media-sound/kinect-audio-firmware 1.0: Extracted firmware for Microsoft Kinnect from SDK. Should be used under terms of Kinnect SDK terms.
-media-sound/kinect-audio-setup 0.6: Tools to enable audio input from the Microsoft Kinect sensor device
+media-sound/kinect-audio-setup 1.0: Tools to enable audio input from the Microsoft Kinect sensor device
 media-video/v4l2loopback 0.12.1 0.12.2 0.12.3: v4l2 loopback device which output is it's own input
 sys-devel/clang 8.0.1-r100 9.0.1-r100: C language family frontend for LLVM
 www-client/brave-bin 1.0.1 1.1.23: Brave Web Browser
