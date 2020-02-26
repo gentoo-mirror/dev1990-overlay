@@ -21,5 +21,6 @@ media-libs/wiimms-iso-tools 9999: Wiimms ISO Tools is a set of command line tool
 media-sound/kinect-audio-firmware 1.0: Extracted firmware for Microsoft Kinnect from SDK. Should be used under terms of Kinnect SDK terms.
 media-sound/kinect-audio-setup 1.0: Tools to enable audio input from the Microsoft Kinect sensor device
 media-video/v4l2loopback 0.12.1 0.12.2 0.12.3: v4l2 loopback device which output is it's own input
+net-im/discord-bin 0.0.10: All-in-one voice and text chat for gamers
 sys-devel/clang 8.0.1-r100 9.0.1-r100: C language family frontend for LLVM
 www-client/brave-bin 1.0.1 1.1.23: Brave Web Browser
