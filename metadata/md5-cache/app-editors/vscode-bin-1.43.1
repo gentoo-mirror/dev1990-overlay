@@ -1,0 +1,14 @@
+DEFINED_PHASES=install postinst setup
+DEPEND=>=media-libs/libpng-1.2.46 >=x11-libs/gtk+-2.24.8-r1:2 x11-libs/cairo gnome-base/gconf x11-libs/libXtst !app-editors/vscode
+DESCRIPTION=Multiplatform Visual Studio Code from Microsoft (binary version)
+EAPI=7
+HOMEPAGE=https://code.visualstudio.com
+IUSE=libsecret pax_kernel
+KEYWORDS=~amd64
+LICENSE=MS-vscode-EULA
+RDEPEND=>=media-libs/libpng-1.2.46 >=x11-libs/gtk+-2.24.8-r1:2 x11-libs/cairo gnome-base/gconf x11-libs/libXtst !app-editors/vscode >=net-print/cups-2.0.0 x11-libs/libnotify x11-libs/libXScrnSaver dev-libs/nss libsecret? ( app-crypt/libsecret[crypt] )
+RESTRICT=mirror strip bindist
+SLOT=0
+SRC_URI=amd64? ( https://update.code.visualstudio.com/1.43.1/linux-x64/stable -> vscode-1.43.1-amd64.tar.gz )
+_eclasses_=desktop	b1d22ac8bdd4679ab79c71aca235009d	pax-utils	a41d1fd1c111289ffa04490de6ee79d7
+_md5_=bfd5c97594ec4e9c2f3590e6107f483f
