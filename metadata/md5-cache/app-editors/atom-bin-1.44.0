@@ -10,5 +10,5 @@ RDEPEND=|| ( >=dev-lang/python-2.7.5-r2:2.7 ) media-fonts/inconsolata system-nod
 RESTRICT=mirror strip bindist
 SLOT=0
 SRC_URI=amd64? ( https://github.com/atom/atom/releases/download/v1.44.0/atom-amd64.tar.gz -> atom-1.44.0-amd64.tar.gz )
-_eclasses_=desktop	b1d22ac8bdd4679ab79c71aca235009d	eutils	fcb2aa98e1948b835b5ae66ca52868c5	flag-o-matic	42d97132740235ad4310cd60beb1992e	gnome2-utils	532371cfcba45b2ab0d2950547c97d95	multilib	1d91b03d42ab6308b5f4f6b598ed110e	pax-utils	a41d1fd1c111289ffa04490de6ee79d7	python-any-r1	c26f95a5042de003dc58bef955e41c88	python-utils-r1	e03f98555f2634bb9fb3160a8e30e3ec	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c	unpacker	3cd8bad0d31e525cd26be1bfa4e61631	xdg-utils	ff2ff954e6b17929574eee4efc5152ba
+_eclasses_=desktop	3b1f1d9a6b749c9ce2d5182877265b23	eutils	fcb2aa98e1948b835b5ae66ca52868c5	flag-o-matic	42d97132740235ad4310cd60beb1992e	gnome2-utils	532371cfcba45b2ab0d2950547c97d95	multilib	1d91b03d42ab6308b5f4f6b598ed110e	pax-utils	a41d1fd1c111289ffa04490de6ee79d7	python-any-r1	c26f95a5042de003dc58bef955e41c88	python-utils-r1	e03f98555f2634bb9fb3160a8e30e3ec	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c	unpacker	3cd8bad0d31e525cd26be1bfa4e61631	xdg-utils	ff2ff954e6b17929574eee4efc5152ba
 _md5_=341d208534d07cd057d5eb0145554d97
