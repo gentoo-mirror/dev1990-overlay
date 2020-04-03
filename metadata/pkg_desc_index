@@ -2,6 +2,7 @@ app-editors/atom-bin 1.41.0 1.42.0 1.43.0 1.44.0 1.45.0: A hackable text editor 
 app-editors/vscode-bin 1.40.0 1.40.1 1.40.2 1.41.0 1.41.1 1.42.0 1.42.1 1.43.0 1.43.1 1.43.2: Multiplatform Visual Studio Code from Microsoft (binary version)
 app-misc/wiimotedev 2.0.3: Wiiremote service and input/ouput emulator
 dev-embedded/rpiboot 9999: Raspberry Pi USB booting code
+dev-lang/lazarus 2.0.6: Lazarus IDE is a feature rich visual programming environment emulating Delphi
 dev-libs/google-benchmark 1.5.0: Google's microbenchmark support library for C++
 dev-qt/qt-creator 4.10.2 4.11.0-r1 4.11.0-r2 4.11.1 4.11.2 4.12.0_beta1 4.12.0_beta2 9999: Lightweight IDE for C++/QML development centering around Qt
 dev-qt/qtsdk-android-clang 5.12.1 5.12.2 5.12.3 5.12.4 5.12.5 5.12.6 5.12.7 5.13.0 5.13.1 5.13.2 5.14.0 5.14.1 5.14.2: Complete Qt SDK for mobile application development
