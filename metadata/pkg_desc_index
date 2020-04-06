@@ -18,11 +18,12 @@ games-action/supertuxkart 1.0: A kart racing game starring Tux, the linux pengui
 games-emulation/dolphin 5.0_p20200311: Gamecube and Wii game emulator
 media-gfx/laser-engraver 0.7.2 0.7.3: Laser engraver toolkit
 media-gfx/led-frame 0.8.10 0.9.1 0.9.2 0.9.3: Led Frame a high performance ambilight software-based solution
-media-gfx/prusa-slicer 2.0.0 2.1.0 2.1.1: G-code generator for 3D printers (RepRap, Makerbot, Ultimaker etc.)
+media-gfx/prusa-slicer 2.0.0 2.1.0 2.1.1 2.2.0: G-code generator for 3D printers (RepRap, Makerbot, Ultimaker etc.)
 media-libs/wiimms-iso-tools 9999: Wiimms ISO Tools is a set of command line tools to manipulate Wii and GameCube ISO images and WBFS containers.
 media-sound/kinect-audio-firmware 1.0: Extracted firmware for Microsoft Kinnect from SDK. Should be used under terms of Kinnect SDK terms.
 media-sound/kinect-audio-setup 1.0: Tools to enable audio input from the Microsoft Kinect sensor device
 media-video/v4l2loopback 0.12.1 0.12.2 0.12.3: v4l2 loopback device which output is it's own input
 net-im/discord-bin 0.0.10: All-in-one voice and text chat for gamers
+sci-mathematics/cgal 4.14.3: C++ library for geometric algorithms and data structures
 sys-devel/clang 8.0.1-r100 9.0.1-r100: C language family frontend for LLVM
 www-client/brave-bin 1.0.1 1.1.23: Brave Web Browser
