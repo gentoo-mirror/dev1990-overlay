@@ -156,10 +156,5 @@ dev-qt/qtsdk-linux-g++-dbg:tools - Build with standard developer tools
 dev-qt/qtsdk-linux-g++-dbg:webchannel - Build Qt WebChannel module
 dev-qt/qtsdk-linux-g++-dbg:webengine - Build Qt WebEngine module
 dev-qt/qtsdk-linux-g++-dbg:webview - Build Qt WebView module
-dev-util/kdevelop:gdbui - Enable GUI for attaching GDB to a running process
-dev-util/kdevelop:hex - Enable hex editor plugin via app-editors/okteta
-dev-util/kdevelop:qmake - Enable support for QMake build system
-dev-util/kdevelop:reviewboard - Enable reviewboard support
-dev-util/kdevelop:webkit - Enable deprecated dev-qt/qtwebkit instead of dev-qt/qtwebengine for integrated documentation
 sci-mathematics/cgal:mpfi - Enable support for multiple recision interval arithmetic via sci-libs/mpfi
 sci-mathematics/cgal:ntl - Enable support for dev-libs/ntl
