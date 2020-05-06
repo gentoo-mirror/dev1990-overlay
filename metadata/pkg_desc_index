@@ -24,6 +24,8 @@ media-sound/kinect-audio-firmware 1.0: Extracted firmware for Microsoft Kinnect 
 media-sound/kinect-audio-setup 1.0: Tools to enable audio input from the Microsoft Kinect sensor device
 media-video/v4l2loopback 0.12.1 0.12.2 0.12.3 0.12.4 0.12.5: v4l2 loopback device which output is it's own input
 net-im/discord-bin 0.0.10: All-in-one voice and text chat for gamers
+net-misc/sstp-client 1.0.13: A client implementation of Secure Socket Tunneling Protocol (SSTP)
+net-vpn/networkmanager-sstp 1.2.6: Client for the proprietary Microsoft Secure Socket Tunneling Protocol(SSTP)
 sci-mathematics/cgal 4.14.3: C++ library for geometric algorithms and data structures
 sys-devel/clang 8.0.1-r100 9.0.1-r100: C language family frontend for LLVM
 www-client/brave-bin 1.0.1 1.1.23: Brave Web Browser
