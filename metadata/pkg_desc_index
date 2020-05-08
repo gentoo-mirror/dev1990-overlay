@@ -1,3 +1,5 @@
+acct-group/gitlab-runner 0: System group: gitlab-runner
+acct-user/gitlab-runner 0: Dedicated user for gitlab-runner
 app-editors/atom-bin 1.41.0 1.42.0 1.43.0 1.44.0 1.45.0 1.46.0: A hackable text editor for the 21st Century - Binary package
 app-editors/vscode-bin 1.40.0 1.40.1 1.40.2 1.41.0 1.41.1 1.42.0 1.42.1 1.43.0 1.43.1 1.43.2 1.44.0 1.44.1 1.44.2: Multiplatform Visual Studio Code from Microsoft (binary version)
 app-misc/wiimotedev 2.0.3: Wiiremote service and input/ouput emulator
@@ -12,6 +14,7 @@ dev-qt/qtsdk-linux-g++ 5.6.0 5.6.1 5.6.2 5.6.3 5.9.0 5.9.1 5.9.2 5.9.3 5.9.4 5.9
 dev-qt/qtsdk-linux-g++-dbg 5.6.0 5.6.1 5.6.2 5.6.3 5.9.0 5.9.1 5.9.2 5.9.3 5.9.4 5.9.5 5.9.6 5.9.7 5.9.8 5.9.9 5.10.0 5.10.1 5.11.0 5.11.1 5.11.2 5.11.3 5.12.0 5.12.1 5.12.2 5.12.3 5.12.4 5.12.5 5.12.6 5.12.7 5.12.8 5.13.0 5.13.1 5.13.2 5.14.0 5.14.1 5.14.2: Complete Qt SDK for desktop application development
 dev-util/android-ndk 18 20 21 21b: Open Handset Alliance's Android NDK (Native Dev Kit)
 dev-util/cmake-format 0.4.5: Source code formatter for cmake listfiles.
+dev-util/gitlab-runner 12.10.2: GitLab Runner
 dev-util/kdevelop 5.5.0: Integrated Development Environment, supporting KF5/Qt, C/C++ and much more
 games-action/extreme-tuxracer 0.7.5: High speed arctic racing game based on Tux Racer
 games-action/supertuxkart 1.0: A kart racing game starring Tux, the linux penguin (TuxKart fork)
