@@ -1,0 +1,9 @@
+DEFINED_PHASES=-
+DESCRIPTION=Bitbake runtime dependencies
+EAPI=7
+HOMEPAGE=https://https://github.com/dev-0x7C6/dev1990-overlay
+KEYWORDS=~amd64 ~arm ~arm64 ~x86
+LICENSE=MIT
+RDEPEND=app-admin/chrpath dev-lang/python[sqlite] dev-util/diffstat net-libs/rpcsvc-proto
+SLOT=0
+_md5_=f9760d62054c9dce3da1f2c2a5d5dc79

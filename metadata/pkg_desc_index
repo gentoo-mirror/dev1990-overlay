@@ -31,4 +31,5 @@ net-misc/sstp-client 1.0.13: A client implementation of Secure Socket Tunneling 
 net-vpn/networkmanager-sstp 1.2.6: Client for the proprietary Microsoft Secure Socket Tunneling Protocol(SSTP)
 sci-mathematics/cgal 4.14.3: C++ library for geometric algorithms and data structures
 sys-devel/clang 8.0.1-r100 9.0.1-r100: C language family frontend for LLVM
+virtual/bitbake-meta 0: Bitbake runtime dependencies
 www-client/brave-bin 1.0.1 1.1.23: Brave Web Browser
