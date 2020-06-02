@@ -10,5 +10,5 @@ RDEPEND=dev-libs/double-conversion:= dev-libs/glib:2 media-libs/fontconfig >=med
 REQUIRED_USE=^^ ( cxx_detect cxx_11 cxx_14 cxx_17 cxx_2a )
 SLOT=5.11.0
 SRC_URI=http://download.qt.io/archive/qt//5.11/5.11.0/single/qt-everywhere-src-5.11.0.tar.xz
-_eclasses_=check-reqs	7e3fd1855a5e1b50bb9e80827b3f672d	qtsdk	90229da3428c34ef2b501b3082fc5e4c	qtsdk-desktop	4db4c0882c2bad3c660b6768f58628a2	qtsdk-desktop-clang	04333846f33be1f52cb70ad6b8897aa0
+_eclasses_=check-reqs	7e3fd1855a5e1b50bb9e80827b3f672d	qtsdk	90229da3428c34ef2b501b3082fc5e4c	qtsdk-desktop	b468f30091eb4b5c5fef414b1e0f89b5	qtsdk-desktop-clang	04333846f33be1f52cb70ad6b8897aa0
 _md5_=895708d7d3165ede07d5fdccf61223dd
