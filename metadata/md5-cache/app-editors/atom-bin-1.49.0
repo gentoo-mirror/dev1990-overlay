@@ -7,5 +7,5 @@ LICENSE=MIT
 RDEPEND=!app-editors/atom || ( dev-lang/python:3.8 dev-lang/python:3.7 dev-lang/python:3.6 ) dev-vcs/git x11-libs/gtk+:3 virtual/libudev dev-libs/libgcrypt x11-libs/libnotify x11-libs/libXtst dev-libs/nss gnome-base/gvfs x11-misc/xdg-utils sys-libs/libcap x11-libs/libX11 x11-libs/libXScrnSaver media-libs/alsa-lib x11-libs/libxkbfile net-misc/curl
 SLOT=0
 SRC_URI=https://github.com/atom/atom/releases/download/v1.49.0/atom-amd64.deb -> atom-bin-1.49.0.deb
-_eclasses_=multilib	2477ebe553d3e4d2c606191fe6c33602	python-any-r1	54a3178500786b0a7ede4a23b7f2a6ad	python-utils-r1	cae3d65c47270c9a8c4880076996c09c	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb	unpacker	8ee8c1a2f31437d1766aac890d07a7f4	xdg-utils	ff2ff954e6b17929574eee4efc5152ba
+_eclasses_=multilib	2477ebe553d3e4d2c606191fe6c33602	python-any-r1	54a3178500786b0a7ede4a23b7f2a6ad	python-utils-r1	bae936266b68e0c374a74f2b0d0aaa44	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb	unpacker	8ee8c1a2f31437d1766aac890d07a7f4	xdg-utils	ff2ff954e6b17929574eee4efc5152ba
 _md5_=d2bca25a26c805f7a34491a0206ccb9c
