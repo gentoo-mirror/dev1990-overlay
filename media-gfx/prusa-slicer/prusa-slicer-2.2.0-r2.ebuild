@@ -13,19 +13,20 @@ SRC_URI="https://github.com/prusa3d/PrusaSlicer/archive/version_${PVE}.tar.gz ->
 
 LICENSE="AGPL-3 CC-BY-3.0"
 SLOT="0"
-KEYWORDS="amd64 x86"
+KEYWORDS="~amd64 ~x86"
 
 RDEPEND="!media-gfx/slic3r
-	>=dev-libs/boost-1.55[threads]
+	>=dev-libs/boost-1.73[threads]
+	>=media-gfx/openvdb-5.0[-abi4-compat]
+	>=sci-mathematics/cgal-4.14
 	dev-cpp/eigen
-	dev-cpp/gtest
-	dev-libs/cereal
 	dev-cpp/tbb
+	dev-libs/cereal
 	dev-libs/expat
 	dev-libs/openssl
 	media-libs/glew
 	net-misc/curl
-	sci-libs/nlopt
+	sci-libs/nlopt[cxx]
 	x11-libs/wxGTK:3.0-gtk3
 "
 
@@ -46,6 +47,11 @@ src_configure() {
 	)
 	cmake-utils_src_configure
 }
+
+PATCHES=(
+	"${FILESDIR}/0001-Raised-cmake-minimal-version-policy-update-for-GLVND.patch"
+	"${FILESDIR}/0002-Fixed-build-with-Boost-1.73.0.patch"
+)
 
 src_install() {
 	cmake-utils_src_install
