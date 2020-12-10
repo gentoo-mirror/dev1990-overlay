@@ -1,0 +1,11 @@
+BDEPEND=sys-devel/bison sys-devel/flex
+DEFINED_PHASES=compile configure install test
+DESCRIPTION=utilities for working with Das U-Boot
+EAPI=7
+HOMEPAGE=https://www.denx.de/wiki/U-Boot/WebHome
+KEYWORDS=~amd64 ~arm ~arm64 ~ppc64 ~riscv ~x86
+LICENSE=GPL-2
+SLOT=0
+SRC_URI=ftp://ftp.denx.de/pub/u-boot/u-boot-2020.10.tar.bz2
+_eclasses_=multilib	d410501a125f99ffb560b0c523cd3d1e	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb
+_md5_=a90ad13af240bc99bcb450e854188cbd
