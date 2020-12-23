@@ -34,6 +34,11 @@ DEPEND="${RDEPEND}"
 
 S="${WORKDIR}/PrusaSlicer-version_${PVE}"
 
+src_prepare() {
+	sed -i -e 's:+UNKNOWN:+gentoo:g' ${S}/version.inc
+	cmake-utils_src_prepare
+}
+
 src_configure() {
 	local mycmakeargs=(
 		-DSLIC3R_WX_STABLE=1
@@ -47,11 +52,6 @@ src_configure() {
 	)
 	cmake-utils_src_configure
 }
-
-PATCHES=(
-	"${FILESDIR}/0001-Avoid-to-create-symlink-that-is-escaping-sandbox.patch"
-	"${FILESDIR}/0001-Removed-UNKNOWN-from-version-string.patch"
-)
 
 src_install() {
 	cmake-utils_src_install
