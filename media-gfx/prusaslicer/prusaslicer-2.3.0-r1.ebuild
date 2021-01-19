@@ -17,7 +17,7 @@ KEYWORDS="~amd64 ~x86"
 
 RDEPEND="!media-gfx/slic3r
 	>=dev-libs/boost-1.73[threads]
-	>=media-gfx/openvdb-5.0[-abi4-compat]
+	>=media-gfx/openvdb-5.0.0
 	>=sci-mathematics/cgal-4.14
 	dev-cpp/eigen
 	dev-cpp/tbb
@@ -34,6 +34,11 @@ DEPEND="${RDEPEND}"
 
 S="${WORKDIR}/PrusaSlicer-version_${PVE}"
 
+src_prepare() {
+	sed -i -e 's:+UNKNOWN:+gentoo:g' ${S}/version.inc
+	cmake-utils_src_prepare
+}
+
 src_configure() {
 	local mycmakeargs=(
 		-DSLIC3R_WX_STABLE=1
@@ -48,11 +53,6 @@ src_configure() {
 	cmake-utils_src_configure
 }
 
-PATCHES=(
-	"${FILESDIR}/0001-Raised-cmake-minimal-version-policy-update-for-GLVND.patch"
-	"${FILESDIR}/0002-Fixed-build-with-Boost-1.73.0.patch"
-)
-
 src_install() {
 	cmake-utils_src_install
 
@@ -60,4 +60,6 @@ src_install() {
 		"PrusaSlicer"\
 		"/usr/share/PrusaSlicer/icons/PrusaSlicer_192px.png" \
 		"Graphics;3DGraphics;Engineering;Development"
+
+	dosym ${PN} /usr/bin/prusa-gcodeviewer
 }
