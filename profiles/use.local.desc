@@ -162,6 +162,7 @@ games-emulation/rpcs3:faudio - Enable audio using app-emulation/faudio
 games-emulation/rpcs3:gdb - Enable debugging with sys-devel/gdb
 games-emulation/rpcs3:llvm - Enable LLVM based recompilation (recommended)
 games-emulation/rpcs3:vulkan - Enable vulkan video output
+media-gfx/openscad:ccache - Use dev-util/ccache to speed up rebuilds
 media-video/obs-studio:fdk - Enable libfdk support for AAC encoding.
 media-video/obs-studio:imagemagick - Use ImageMagick for image loading instead of FFmpeg.
 media-video/obs-studio:luajit - Build support for scripting via Luajit.
