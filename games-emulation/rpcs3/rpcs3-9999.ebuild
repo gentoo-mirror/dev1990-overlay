@@ -9,7 +9,6 @@ DESCRIPTION="Open source PlayStation 3 emulator"
 HOMEPAGE="https://rpcs3.net/"
 
 EGIT_REPO_URI="https://github.com/RPCS3/rpcs3.git"
-EGIT_COMMIT="v${PV}"
 EGIT_SUBMODULES=( '*' '-*llvm*' )
 
 
