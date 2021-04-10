@@ -156,6 +156,8 @@ dev-qt/qtsdk-linux-g++-dbg:tools - Build with standard developer tools
 dev-qt/qtsdk-linux-g++-dbg:webchannel - Build Qt WebChannel module
 dev-qt/qtsdk-linux-g++-dbg:webengine - Build Qt WebEngine module
 dev-qt/qtsdk-linux-g++-dbg:webview - Build Qt WebView module
+dev-vcs/subversion:extras - Install extra scripts (examples, tools, hooks)
+dev-vcs/subversion:kwallet - Enable encrypted storage of passwords with kde-frameworks/kwallet
 games-emulation/rpcs3:discord-rpc - Enable Discord integration
 games-emulation/rpcs3:evdev - Enable evdev for input
 games-emulation/rpcs3:faudio - Enable audio using app-emulation/faudio

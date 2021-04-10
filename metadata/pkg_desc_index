@@ -19,6 +19,7 @@ dev-util/android-ndk 18 20 21 21b: Open Handset Alliance's Android NDK (Native D
 dev-util/cmake-format 0.4.5 0.6.13: Source code formatter for cmake listfiles.
 dev-util/gitlab-runner 12.10.2-r1: GitLab Runner
 dev-util/kdevelop 5.5.0: Integrated Development Environment, supporting KF5/Qt, C/C++ and much more
+dev-vcs/subversion 1.14.1-r1: Advanced version control system
 games-action/extreme-tuxracer 0.7.5: High speed arctic racing game based on Tux Racer
 games-action/supertuxkart 1.0: A kart racing game starring Tux, the linux penguin (TuxKart fork)
 games-emulation/dolphin 5.0_p20200311 5.0_p20200407 5.0_p20200421 5.0_p20200428 5.0_p20200813 5.0_p20201116 5.0_p20201228 5.0_p20210103: Gamecube and Wii game emulator
