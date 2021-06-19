@@ -39,6 +39,5 @@ net-im/discord-bin 0.0.10 0.0.12: All-in-one voice and text chat for gamers
 net-im/skypeforlinux 8.60.0.76: Instant messaging client, with support for audio and video
 net-misc/sstp-client 1.0.13: A client implementation of Secure Socket Tunneling Protocol (SSTP)
 net-vpn/networkmanager-sstp 1.2.6: Client for the proprietary Microsoft Secure Socket Tunneling Protocol(SSTP)
-sci-mathematics/cgal 4.14.3: C++ library for geometric algorithms and data structures
 sys-kernel/zenpower 0.1.12: Linux kernel driver for reading sensors of AMD Zen family CPUs
 virtual/bitbake-meta 0: Bitbake runtime dependencies

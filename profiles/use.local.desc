@@ -173,5 +173,3 @@ media-video/obs-studio:python - Build support for scripting via Python 3.
 media-video/obs-studio:speex - Enable noise suppression filter support via media-libs/speexdsp.
 media-video/obs-studio:ssl - Build support for TLS/SSL connections (RTMPS) via net-libs/mbedtls.
 media-video/obs-studio:vlc - Build support for using media-video/vlc as a media source.
-sci-mathematics/cgal:mpfi - Enable support for multiple recision interval arithmetic via sci-libs/mpfi
-sci-mathematics/cgal:ntl - Enable support for dev-libs/ntl
