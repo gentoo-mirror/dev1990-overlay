@@ -8,5 +8,5 @@ LICENSE=MIT
 RDEPEND=!app-editors/atom || ( dev-lang/python:3.8 ) dev-vcs/git x11-libs/gtk+:3 virtual/libudev dev-libs/libgcrypt x11-libs/libnotify x11-libs/libXtst dev-libs/nss gnome-base/gvfs x11-misc/xdg-utils sys-libs/libcap x11-libs/libX11 x11-libs/libXScrnSaver media-libs/alsa-lib x11-libs/libxkbfile net-misc/curl
 SLOT=0
 SRC_URI=https://github.com/atom/atom/releases/download/v1.56.0/atom-amd64.deb -> atom-bin-1.56.0.deb
-_eclasses_=eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	multilib	97566c1a256d07b00848aa767e38a352	python-utils-r1	977ed3240c7c676eb18a277e65663c1c	python-any-r1	901d9e22c7a848a1196502edf060f330	unpacker	2eeba54233fa41bdb15dcddcb63fba3a	xdg-utils	ff2ff954e6b17929574eee4efc5152ba
+_eclasses_=eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	multilib	97566c1a256d07b00848aa767e38a352	python-utils-r1	969dff6876159a10dfdad9e01d265d1c	python-any-r1	901d9e22c7a848a1196502edf060f330	unpacker	2eeba54233fa41bdb15dcddcb63fba3a	xdg-utils	ff2ff954e6b17929574eee4efc5152ba
 _md5_=d2bca25a26c805f7a34491a0206ccb9c
