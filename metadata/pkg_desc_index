@@ -8,7 +8,7 @@ dev-embedded/fdt-viewer 0.5.1 0.7.2 0.7.3 0.7.4 0.8.0: Flattened Device Tree Vie
 dev-embedded/rpiboot 9999: Raspberry Pi USB booting code
 dev-embedded/u-boot-tools 2020.10: utilities for working with Das U-Boot
 dev-lang/lazarus 2.0.10: Lazarus IDE is a feature rich visual programming environment emulating Delphi
-dev-libs/google-benchmark 1.5.0 1.5.2: Google's microbenchmark support library for C++
+dev-libs/google-benchmark 1.6.0: Google's microbenchmark support library for C++
 dev-libs/libmodbus 3.1.4: Modbus library which supports RTU communication over a serial line or a TCP link
 dev-qt/qt-creator 4.15.2 9999: Lightweight IDE for C++/QML development centering around Qt
 dev-qt/qtsdk-android-clang 5.12.1 5.12.2 5.12.3 5.12.4 5.12.5 5.12.6 5.12.7 5.12.8 5.12.9 5.12.10 5.13.0 5.13.1 5.13.2 5.14.0 5.14.1 5.14.2 5.15.0 5.15.1 5.15.2: Complete Qt SDK for mobile application development
