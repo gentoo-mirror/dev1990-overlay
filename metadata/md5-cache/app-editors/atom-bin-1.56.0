@@ -5,8 +5,8 @@ HOMEPAGE=https://atom.io/
 INHERIT=python-any-r1 unpacker xdg-utils
 KEYWORDS=~amd64
 LICENSE=MIT
-RDEPEND=!app-editors/atom || ( dev-lang/python:3.8 ) dev-vcs/git x11-libs/gtk+:3 virtual/libudev dev-libs/libgcrypt x11-libs/libnotify x11-libs/libXtst dev-libs/nss gnome-base/gvfs x11-misc/xdg-utils sys-libs/libcap x11-libs/libX11 x11-libs/libXScrnSaver media-libs/alsa-lib x11-libs/libxkbfile net-misc/curl
+RDEPEND=!app-editors/atom || ( >=dev-lang/python-3.8.12_p1-r1:3.8 ) dev-vcs/git x11-libs/gtk+:3 virtual/libudev dev-libs/libgcrypt x11-libs/libnotify x11-libs/libXtst dev-libs/nss gnome-base/gvfs x11-misc/xdg-utils sys-libs/libcap x11-libs/libX11 x11-libs/libXScrnSaver media-libs/alsa-lib x11-libs/libxkbfile net-misc/curl
 SLOT=0
 SRC_URI=https://github.com/atom/atom/releases/download/v1.56.0/atom-amd64.deb -> atom-bin-1.56.0.deb
-_eclasses_=eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	multiprocessing	61c959fc55c15c00bbb1079d6a71370b	toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	de4beb52bfa93c4c5d96792a6b5e1784	python-utils-r1	a8b7938ade305f087865de7e52d079b5	python-any-r1	13f6d423c5c5bc519a9b552654cc745f	unpacker	03b2fab39d555f46843c92f44a40a721	xdg-utils	4f29a8b760a594a212abe9c2ba957c31
+_eclasses_=eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	multiprocessing	61c959fc55c15c00bbb1079d6a71370b	toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	de4beb52bfa93c4c5d96792a6b5e1784	python-utils-r1	b601c48fe339b4c9bc03ffe4f25283e0	python-any-r1	13f6d423c5c5bc519a9b552654cc745f	unpacker	03b2fab39d555f46843c92f44a40a721	xdg-utils	4f29a8b760a594a212abe9c2ba957c31
 _md5_=d2bca25a26c805f7a34491a0206ccb9c
