@@ -1,7 +1,6 @@
 acct-group/gitlab-runner 0: System group: gitlab-runner
 acct-user/gitlab-runner 0: Dedicated user for gitlab-runner
 app-editors/atom-bin 1.56.0: A hackable text editor for the 21st Century
-app-editors/vscode 1.62.3: Multiplatform Visual Studio Code from Microsoft
 app-misc/rdfind 1.4.1: Find duplicate files
 app-misc/wiimotedev 2.0.3: Wiiremote service and input/ouput emulator
 dev-embedded/fdt-viewer 0.8.1: Flattened Device Tree Viewer written in Qt
@@ -22,7 +21,7 @@ dev-util/kdevelop 5.5.0: Integrated Development Environment, supporting KF5/Qt, 
 dev-vcs/subversion 1.14.1-r1: Advanced version control system
 games-action/extreme-tuxracer 0.7.5: High speed arctic racing game based on Tux Racer
 games-action/supertuxkart 1.0: A kart racing game starring Tux, the linux penguin (TuxKart fork)
-games-emulation/dolphin 5.0_p20211121: Gamecube and Wii game emulator
+games-emulation/dolphin 5.0_p20220117 5.0_p20220217: Gamecube and Wii game emulator
 games-emulation/melonds 0.9.3: Nintendo DS emulator, sorta
 games-emulation/rpcs3 0.0.11 0.0.12 0.0.13 0.0.15 0.0.16 9999: Open source PlayStation 3 emulator
 media-gfx/laser-engraver 0.7.6: Laser engraver toolkit
