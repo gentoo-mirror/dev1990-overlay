@@ -8,5 +8,5 @@ KEYWORDS=~amd64 ~x86
 LICENSE=GPLv2
 PROPERTIES=live
 SLOT=0
-_eclasses_=estack	055c42df72f76a4f45ec92b35e83cd56	subversion	c74febd1baf21b1229704d6a953c27db
+_eclasses_=estack	055c42df72f76a4f45ec92b35e83cd56	subversion	c68c8559f821cf5c144f3867244db4a3
 _md5_=48e60bc65ff99cb2def4afe264acb3f3
