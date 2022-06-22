@@ -11,5 +11,5 @@ RDEPEND=>=dev-lang/fpc-3.0.4[source] net-misc/rsync x11-libs/gtk+:2 >=sys-devel/
 RESTRICT=strip
 SLOT=0
 SRC_URI=python? ( https://github.com/Alexey-T/Python-for-Lazarus/archive/586eec1a5ea609ef9df2bf586be06825d9fbd50f.tar.gz -> lazarus-2.0.10-python.tar.gz ) https://sourceforge.net/projects/lazarus/files/Lazarus%20Zip%20_%20GZip/Lazarus%202.0.10/lazarus-2.0.10-2.tar.gz
-_eclasses_=desktop	c0d27bf73aa08ca05b663dbd31fbef28
+_eclasses_=desktop	22952d8f27cac191d75529d4c38e6bfa
 _md5_=b1f59737d0cb94e30f8dee4a5fd777ee
