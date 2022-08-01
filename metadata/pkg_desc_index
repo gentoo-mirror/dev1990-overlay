@@ -2,12 +2,9 @@ acct-group/gitlab-runner 0: System group: gitlab-runner
 acct-user/gitlab-runner 0: Dedicated user for gitlab-runner
 app-editors/atom-bin 1.56.0: A hackable text editor for the 21st Century
 app-misc/rdfind 1.4.1: Find duplicate files
-app-misc/wiimotedev 2.0.3: Wiiremote service and input/ouput emulator
-dev-embedded/fdt-viewer 0.8.1: Flattened Device Tree Viewer written in Qt
 dev-embedded/rpiboot 9999: Raspberry Pi USB booting code
 dev-embedded/u-boot-tools 2020.10: utilities for working with Das U-Boot
 dev-lang/lazarus 2.0.10: Lazarus IDE is a feature rich visual programming environment emulating Delphi
-dev-libs/google-benchmark 1.6.1: Google's microbenchmark support library for C++
 dev-libs/libmodbus 3.1.4: Modbus library which supports RTU communication over a serial line or a TCP link
 dev-qt/qt-creator 6.0.2: Lightweight IDE for C++/QML development centering around Qt
 dev-qt/qtsdk-android-clang 5.12.1 5.12.2 5.12.3 5.12.4 5.12.5 5.12.6 5.12.7 5.12.8 5.12.9 5.12.10 5.13.0 5.13.1 5.13.2 5.14.0 5.14.1 5.14.2 5.15.0 5.15.1 5.15.2: Complete Qt SDK for mobile application development
@@ -20,18 +17,11 @@ dev-util/cmake-format 0.6.13-r1: Source code formatter for cmake listfiles.
 dev-util/gitlab-runner 14.7.0: GitLab Runner
 dev-util/kdevelop 5.5.0: Integrated Development Environment, supporting KF5/Qt, C/C++ and much more
 games-action/extreme-tuxracer 0.7.5: High speed arctic racing game based on Tux Racer
-games-action/supertuxkart 1.0: A kart racing game starring Tux, the linux penguin (TuxKart fork)
 games-emulation/dolphin 5.0_p20220117 5.0_p20220217: Gamecube and Wii game emulator
 games-emulation/melonds 0.9.3: Nintendo DS emulator, sorta
-games-emulation/rpcs3 0.0.11 0.0.12 0.0.13 0.0.15 0.0.16 9999: Open source PlayStation 3 emulator
-media-gfx/laser-engraver 0.7.6: Laser engraver toolkit
-media-gfx/led-frame 0.8.10 0.9.1 0.9.2 0.9.3: Led Frame a high performance ambilight software-based solution
 media-gfx/openscad 2021.01: The Programmers Solid 3D CAD Modeller
 media-gfx/prusaslicer 2.4.0: A mesh slicer to generate G-code for fused-filament-fabrication (3D printers)
 media-libs/wiimms-iso-tools 9999: Wiimms ISO Tools is a set of command line tools to manipulate Wii and GameCube ISO images and WBFS containers.
-media-sound/kinect-audio-firmware 1.0: Extracted firmware for Microsoft Kinnect from SDK. Should be used under terms of Kinnect SDK terms.
-media-sound/kinect-audio-setup 1.0: Tools to enable audio input from the Microsoft Kinect sensor device
-media-video/obs-studio 27.0.1: Software for Recording and Streaming Live Video Content
 media-video/v4l2loopback 0.12.5: v4l2 loopback device which output is it's own input
 net-im/discord-bin 0.0.10 0.0.12: All-in-one voice and text chat for gamers
 net-im/skypeforlinux 8.60.0.76: Instant messaging client, with support for audio and video
