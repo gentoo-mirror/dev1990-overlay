@@ -142,3 +142,7 @@ media-video/obs-studio:python - Build support for scripting via Python 3.
 media-video/obs-studio:speex - Enable noise suppression filter support via media-libs/speexdsp.
 media-video/obs-studio:ssl - Build support for TLS/SSL connections (RTMPS) via net-libs/mbedtls.
 media-video/obs-studio:vlc - Build support for using media-video/vlc as a media source.
+net-p2p/monero:daemon - Build the Monero daemon used to connect to the P2P network.
+net-p2p/monero:tools - Build tools used to manipulate the blockchain as it is stored on disk.
+net-p2p/monero:wallet-cli - Build the command line wallet, monero-wallet-cli.
+net-p2p/monero:wallet-rpc - Build the RPC wallet, monero-wallet-rpc.
