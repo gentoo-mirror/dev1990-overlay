@@ -38,6 +38,7 @@ media-video/obs-studio 27.0.1: Software for Recording and Streaming Live Video C
 media-video/v4l2loopback 0.12.5: v4l2 loopback device which output is it's own input
 net-im/discord-bin 0.0.10 0.0.12: All-in-one voice and text chat for gamers
 net-im/skypeforlinux 8.60.0.76: Instant messaging client, with support for audio and video
+net-misc/sstp-client 1.0.18: A client implementation of Secure Socket Tunneling Protocol (SSTP)
 net-p2p/monero 0.18.1.1: The secure, private, untraceable cryptocurrency
 net-p2p/monero-gui 0.18.1.0: GUI for net-p2p/monero
 net-vpn/networkmanager-sstp 1.2.6-r1: Client for the proprietary Microsoft Secure Socket Tunneling Protocol(SSTP)
