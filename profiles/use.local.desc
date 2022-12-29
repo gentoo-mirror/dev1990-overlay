@@ -134,14 +134,6 @@ games-emulation/rpcs3:gdb - Enable debugging with sys-devel/gdb
 games-emulation/rpcs3:llvm - Enable LLVM based recompilation (recommended)
 games-emulation/rpcs3:vulkan - Enable vulkan video output
 media-gfx/openscad:ccache - Use dev-util/ccache to speed up rebuilds
-media-video/obs-studio:fdk - Enable libfdk support for AAC encoding.
-media-video/obs-studio:imagemagick - Use ImageMagick for image loading instead of FFmpeg.
-media-video/obs-studio:luajit - Build support for scripting via Luajit.
-media-video/obs-studio:nvenc - Enable NVENC encoding for nVidia video cards.
-media-video/obs-studio:python - Build support for scripting via Python 3.
-media-video/obs-studio:speex - Enable noise suppression filter support via media-libs/speexdsp.
-media-video/obs-studio:ssl - Build support for TLS/SSL connections (RTMPS) via net-libs/mbedtls.
-media-video/obs-studio:vlc - Build support for using media-video/vlc as a media source.
 net-p2p/monero:daemon - Build the Monero daemon used to connect to the P2P network.
 net-p2p/monero:tools - Build tools used to manipulate the blockchain as it is stored on disk.
 net-p2p/monero:wallet-cli - Build the command line wallet, monero-wallet-cli.

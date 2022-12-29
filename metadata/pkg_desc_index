@@ -1,18 +1,13 @@
-acct-group/gitlab-runner 0: System group: gitlab-runner
 acct-group/monero 0: System group: monero
-acct-user/gitlab-runner 0: Dedicated user for gitlab-runner
 acct-user/monero 0: System user: monero
-app-editors/atom-bin 1.56.0: A hackable text editor for the 21st Century
 app-misc/rdfind 1.4.1: Find duplicate files
 app-misc/wiimotedev 2.0.3: Wiiremote service and input/ouput emulator
 dev-cpp/cli11 2.2.0: Command line parser for C++11
 dev-embedded/fdt-viewer 0.8.1: Flattened Device Tree Viewer written in Qt
 dev-embedded/rpiboot 9999: Raspberry Pi USB booting code
 dev-embedded/u-boot-tools 2020.10: utilities for working with Das U-Boot
-dev-libs/libmodbus 3.1.4: Modbus library which supports RTU communication over a serial line or a TCP link
 dev-libs/randomx 1.1.10: Proof of work algorithm based on random code execution
 dev-libs/supercop 0_p20200827: Fast cryptographic operations for Monero wallets
-dev-qt/qt-creator 8.0.1: Lightweight IDE for C++/QML development centering around Qt
 dev-qt/qtsdk-android-clang 5.12.1 5.12.2 5.12.3 5.12.4 5.12.5 5.12.6 5.12.7 5.12.8 5.12.9 5.12.10 5.13.0 5.13.1 5.13.2 5.14.0 5.14.1 5.14.2 5.15.0 5.15.1 5.15.2: Complete Qt SDK for mobile application development
 dev-qt/qtsdk-linux-clang 5.6.0 5.6.1 5.6.2 5.6.3 5.9.0 5.9.1 5.9.2 5.9.3 5.9.4 5.9.5 5.9.6 5.9.7 5.9.8 5.9.9 5.10.0 5.10.1 5.11.0 5.11.1 5.11.2 5.11.3 5.12.0 5.12.1 5.12.2 5.12.3 5.12.4 5.12.5 5.12.6 5.12.7 5.12.8 5.12.9 5.12.10 5.13.0 5.13.1 5.13.2 5.14.0 5.14.1 5.14.2 5.15.0 5.15.1 5.15.2: Complete Qt SDK for desktop application development
 dev-qt/qtsdk-linux-clang-dbg 5.6.0 5.6.1 5.6.2 5.6.3 5.9.0 5.9.1 5.9.2 5.9.3 5.9.4 5.9.5 5.9.6 5.9.7 5.9.8 5.9.9 5.10.0 5.10.1 5.11.0 5.11.1 5.11.2 5.11.3 5.12.0 5.12.1 5.12.2 5.12.3 5.12.4 5.12.5 5.12.6 5.12.7 5.12.8 5.12.9 5.12.10 5.13.0 5.13.1 5.13.2 5.14.0 5.14.1 5.14.2 5.15.0 5.15.1 5.15.2: Complete Qt SDK for desktop application development
@@ -30,7 +25,6 @@ media-libs/wiimms-iso-tools 9999: Wiimms ISO Tools is a set of command line tool
 media-libs/xwiimote-ng 9999: Nintendo Wii Remote Linux Device Driver Tools
 media-sound/kinect-audio-firmware 1.0: Extracted firmware for Microsoft Kinnect from SDK. Should be used under terms of Kinnect SDK terms.
 media-sound/kinect-audio-setup 1.0: Tools to enable audio input from the Microsoft Kinect sensor device
-media-video/obs-studio 27.0.1: Software for Recording and Streaming Live Video Content
 media-video/v4l2loopback 0.12.7: v4l2 loopback device which output is it's own input
 net-misc/sstp-client 1.0.18: A client implementation of Secure Socket Tunneling Protocol (SSTP)
 net-p2p/monero 0.18.1.2: The secure, private, untraceable cryptocurrency
