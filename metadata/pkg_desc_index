@@ -1,6 +1,5 @@
 acct-group/monero 0: System group: monero
 acct-user/monero 0: System user: monero
-app-misc/rdfind 1.4.1: Find duplicate files
 app-misc/wiimotedev 2.0.3: Wiiremote service and input/ouput emulator
 dev-cpp/cli11 2.2.0: Command line parser for C++11
 dev-embedded/fdt-viewer 0.8.1: Flattened Device Tree Viewer written in Qt
