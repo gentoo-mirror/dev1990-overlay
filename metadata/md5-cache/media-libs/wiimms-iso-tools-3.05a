@@ -1,0 +1,9 @@
+DEFINED_PHASES=compile
+DESCRIPTION=Wiimms ISO Tools is a set of command line tools to manipulate Wii and GameCube ISO images and WBFS containers.
+EAPI=8
+HOMEPAGE=http://wit.wiimm.de/
+KEYWORDS=~amd64 ~x86
+LICENSE=GPLv2
+SLOT=0
+SRC_URI=https://download.wiimm.de/source/wiimms-iso-tools/wiimms-iso-tools.source-3.05a.zip
+_md5_=c9166264ea3a84bd583e1348bac4e05a

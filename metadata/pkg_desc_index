@@ -20,6 +20,7 @@ games-emulation/rpcs3 0.0.11 0.0.12 0.0.13 0.0.15 0.0.16 9999: Open source PlayS
 media-gfx/laser-engraver 0.7.6: Laser engraver toolkit
 media-gfx/led-frame 0.8.10 0.9.1 0.9.2 0.9.3: Led Frame a high performance ambilight software-based solution
 media-gfx/openscad 2021.01: The Programmers Solid 3D CAD Modeller
+media-libs/wiimms-iso-tools 3.05a: Wiimms ISO Tools is a set of command line tools to manipulate Wii and GameCube ISO images and WBFS containers.
 media-libs/xwiimote-ng 9999: Nintendo Wii Remote Linux Device Driver Tools
 media-sound/kinect-audio-firmware 1.0: Extracted firmware for Microsoft Kinnect from SDK. Should be used under terms of Kinnect SDK terms.
 media-sound/kinect-audio-setup 1.0: Tools to enable audio input from the Microsoft Kinect sensor device
