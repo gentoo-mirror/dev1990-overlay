@@ -5,6 +5,7 @@ dev-cpp/cli11 2.2.0: Command line parser for C++11
 dev-embedded/fdt-viewer 0.8.1: Flattened Device Tree Viewer written in Qt
 dev-embedded/rpiboot 9999: Raspberry Pi USB booting code
 dev-embedded/u-boot-tools 2020.10: utilities for working with Das U-Boot
+dev-libs/libportal 0.8.1: Flatpak portal library
 dev-libs/randomx 1.1.10: Proof of work algorithm based on random code execution
 dev-libs/supercop 0_p20200827: Fast cryptographic operations for Monero wallets
 dev-qt/qtsdk-android-clang 5.12.1 5.12.2 5.12.3 5.12.4 5.12.5 5.12.6 5.12.7 5.12.8 5.12.9 5.12.10 5.13.0 5.13.1 5.13.2 5.14.0 5.14.1 5.14.2 5.15.0 5.15.1 5.15.2: Complete Qt SDK for mobile application development
