@@ -1,6 +1,6 @@
 acct-group/monero 0: System group: monero
 acct-user/monero 0: System user: monero
-app-misc/deskflow 1.17.0-r1 1.17.2: Deskflow lets you share one mouse and keyboard between multiple computers
+app-misc/deskflow 1.17.0-r1 1.17.2 1.18.0: Deskflow lets you share one mouse and keyboard between multiple computers
 app-misc/wiimotedev 2.0.3: Wiiremote service and input/ouput emulator
 dev-cpp/cli11 2.2.0: Command line parser for C++11
 dev-embedded/fdt-viewer 0.8.1: Flattened Device Tree Viewer written in Qt
