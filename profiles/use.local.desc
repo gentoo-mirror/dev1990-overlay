@@ -3,6 +3,8 @@
 # * generated automatically using pmaint *
 
 app-misc/deskflow:gui - Build with GUI support
+app-misc/ollama:cuda - Enable NVIDIA CUDA support
+app-misc/ollama:systemd - Enable systemd support
 dev-qt/qtsdk-android-clang:3d - Build Qt3D module
 dev-qt/qtsdk-android-clang:connectivity - Build Qt Connectivity module
 dev-qt/qtsdk-android-clang:declarative - Build Qt Declarative module
