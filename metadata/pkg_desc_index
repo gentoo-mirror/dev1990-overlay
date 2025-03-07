@@ -18,7 +18,7 @@ dev-qt/qtsdk-linux-g++ 5.15.16: Complete Qt SDK for desktop application developm
 dev-qt/qtsdk-linux-g++-dbg 5.15.16: Complete Qt SDK for desktop application development
 dev-util/android-ndk 25c: Open Handset Alliance's Android NDK (Native Dev Kit)
 dev-util/cmake-format 0.6.13-r1: Source code formatter for cmake listfiles.
-dev-util/crc-utils 0.4.0: CRC-based checksum tools
+dev-util/crc-utils 0.4.0 0.5.0: CRC-based checksum tools
 dev-util/kdevelop 23.03.90-r1: Integrated Development Environment, supporting KF5/Qt, C/C++ and much more
 games-emulation/dolphin 5.0_p20220117 5.0_p20220217: Gamecube and Wii game emulator
 games-emulation/rpcs3 0.0.11 0.0.12 0.0.13 0.0.15 0.0.16 9999: Open source PlayStation 3 emulator
