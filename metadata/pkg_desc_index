@@ -2,7 +2,7 @@ acct-group/monero 0: System group: monero
 acct-group/ollama 2: A group for ollama
 acct-user/monero 0: System user: monero
 acct-user/ollama 2: A user for ollama
-app-misc/deskflow 1.17.0-r1 1.17.2 1.18.0 1.19.0 1.20.0: Deskflow lets you share one mouse and keyboard between multiple computers
+app-misc/deskflow 1.17.0-r1 1.17.2 1.18.0 1.19.0 1.20.0 1.21.2: Deskflow lets you share one mouse and keyboard between multiple computers
 app-misc/ollama 0.5.7-r1: Get up and running with Llama 3, Mistral, Gemma, and other language models.
 app-misc/wiimotedev 2.0.3: Wiiremote service and input/ouput emulator
 dev-cpp/cli11 2.2.0: Command line parser for C++11
