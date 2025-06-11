@@ -3,7 +3,9 @@
 
 EAPI=8
 
-PYTHON_COMPAT=(python3_{7..11})
+DISTUTILS_USE_PEP517=setuptools
+PYTHON_COMPAT=(python3_{10..14})
+
 inherit distutils-r1
 
 _P=${P/-/_}
@@ -18,6 +20,3 @@ LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS="amd64 x86"
 IUSE=""
-
-DEPEND="dev-python/pyserial"
-RDEPEND="${DEPEND}"
