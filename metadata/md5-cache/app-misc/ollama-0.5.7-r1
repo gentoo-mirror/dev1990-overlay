@@ -13,5 +13,5 @@ REQUIRED_USE=cpu_flags_x86_avx2? ( cpu_flags_x86_avx ) cpu_flags_x86_avx512f? ( 
 RESTRICT=strip
 SLOT=0
 SRC_URI=https://github.com/ollama/ollama/archive/refs/tags/v0.5.7.tar.gz -> ollama-0.5.7.gh.tar.gz https://github.com/Tapchicoma/ebuild-deps/raw/refs/heads/main/go-deps/ollama-0.5.7-deps.tar.xz
-_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	flag-o-matic	b892042b2667b8ac69ec8a2571dc290a	go-env	0e2babf96e7d0b045fc07ad199eb2399	go-module	191a27261275fc3bff7dd7482361b5d6	rocm	ceb8f84b6d9c14021b983faab573ef93	systemd	a964c0cbe818b5729da1dbfcee5be861
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	toolchain-funcs	a6df79c1e9bc84369dbf3d44206ac772	flag-o-matic	a7afe42e95fb46ce9691605acfb24672	go-env	0e2babf96e7d0b045fc07ad199eb2399	go-module	191a27261275fc3bff7dd7482361b5d6	rocm	049a642ed7dfce216d678c82044e33f9	systemd	a964c0cbe818b5729da1dbfcee5be861
 _md5_=51687564793526e4117a00c8d8da1e5d
