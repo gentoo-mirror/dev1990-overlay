@@ -12,5 +12,5 @@ RDEPEND=acct-group/ollama acct-user/ollama
 REQUIRED_USE=cpu_flags_x86_avx2? ( cpu_flags_x86_avx ) cpu_flags_x86_avx512f? ( cpu_flags_x86_avx2 ) cpu_flags_x86_avx512vbmi? ( cpu_flags_x86_avx512f ) cpu_flags_x86_avx512_vnni? ( cpu_flags_x86_avx512f ) cpu_flags_x86_avx512_bf16? ( cpu_flags_x86_avx512f )
 SLOT=0
 SRC_URI=https://github.com/ollama/ollama/archive/refs/tags/v0.5.7.tar.gz -> ollama-0.5.7.gh.tar.gz https://github.com/Tapchicoma/ebuild-deps/raw/refs/heads/main/go-deps/ollama-0.5.7-deps.tar.xz
-_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	toolchain-funcs	a6df79c1e9bc84369dbf3d44206ac772	flag-o-matic	a7afe42e95fb46ce9691605acfb24672	go-env	0e2babf96e7d0b045fc07ad199eb2399	go-module	d96f2a2fd6d8fbad6d94516bf238f885	rocm	049a642ed7dfce216d678c82044e33f9	systemd	a964c0cbe818b5729da1dbfcee5be861
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0	flag-o-matic	a7afe42e95fb46ce9691605acfb24672	go-env	0e2babf96e7d0b045fc07ad199eb2399	go-module	d96f2a2fd6d8fbad6d94516bf238f885	rocm	049a642ed7dfce216d678c82044e33f9	systemd	a964c0cbe818b5729da1dbfcee5be861
 _md5_=51687564793526e4117a00c8d8da1e5d
